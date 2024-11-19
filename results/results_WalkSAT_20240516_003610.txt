@@ -1,0 +1,17 @@
+n=100, m=100, GSAT Success: 0.0%, WalkSAT Success: 100.0%, Time: 3.92 seconds
+n=100, m=150, GSAT Success: 0.0%, WalkSAT Success: 100.0%, Time: 4.13 seconds
+n=100, m=200, GSAT Success: 0.0%, WalkSAT Success: 100.0%, Time: 4.41 seconds
+n=100, m=250, GSAT Success: 0.0%, WalkSAT Success: 100.0%, Time: 4.63 seconds
+n=100, m=300, GSAT Success: 0.0%, WalkSAT Success: 100.0%, Time: 4.98 seconds
+n=100, m=350, GSAT Success: 0.0%, WalkSAT Success: 100.0%, Time: 5.17 seconds
+n=100, m=360, GSAT Success: 0.0%, WalkSAT Success: 100.0%, Time: 5.26 seconds
+n=100, m=370, GSAT Success: 0.0%, WalkSAT Success: 100.0%, Time: 5.22 seconds
+n=100, m=380, GSAT Success: 0.0%, WalkSAT Success: 100.0%, Time: 5.45 seconds
+n=100, m=390, GSAT Success: 0.0%, WalkSAT Success: 100.0%, Time: 5.50 seconds
+n=100, m=400, GSAT Success: 0.0%, WalkSAT Success: 100.0%, Time: 5.50 seconds
+n=100, m=409, GSAT Success: 0.0%, WalkSAT Success: 100.0%, Time: 5.60 seconds
+n=100, m=420, GSAT Success: 0.0%, WalkSAT Success: 100.0%, Time: 5.69 seconds
+n=100, m=430, GSAT Success: 0.0%, WalkSAT Success: 100.0%, Time: 5.74 seconds
+n=100, m=440, GSAT Success: 0.0%, WalkSAT Success: 100.0%, Time: 5.94 seconds
+n=100, m=450, GSAT Success: 0.0%, WalkSAT Success: 100.0%, Time: 5.92 seconds
+n=100, m=500, GSAT Success: 0.0%, WalkSAT Success: 100.0%, Time: 6.11 seconds

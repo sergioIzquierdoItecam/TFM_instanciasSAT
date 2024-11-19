@@ -42,15 +42,31 @@ class WalkSAT:
         return satisfied
 
     # Builds a map of variables to the clauses they appear in
-    def get_variable_clauses(self):
+    def get_variable_clauses(self, assignment):
         variable_clauses = {}
-        for clause_index, clause in enumerate(self.formula, start=1):
+        score_clauses = {}     
+        clause_assignment = {}
+        for clause_index in range(1,self.clauses + 1):
+        # for clause_index, clause in enumerate(self.formula, start=1):
+            clause = self.formula[clause_index - 1]
+            score_clauses[clause_index] = 0
+            clause_assignment[clause_index] = []
+            
             for literal in clause:
-                variable = abs(literal)
+                if assignment[abs(literal)]:
+                    variable = literal
+                else:
+                    variable = -literal
+                clause_assignment[clause_index].append(variable)
+    
                 if variable not in variable_clauses:
                     variable_clauses[variable] = []
                 variable_clauses[variable].append(clause_index)
-        return variable_clauses
+                # if clause_index not in score_clauses:
+                #     score_clauses[clause_index] = 0
+                if variable > 0:
+                    score_clauses[clause_index] += 1
+        return variable_clauses, score_clauses, clause_assignment
 
     # Calculates the total number of clauses that are satisfied
     def get_satisfied_total(self, satisfied):
@@ -58,56 +74,84 @@ class WalkSAT:
 
     # Main method to attempt solving the SAT problem, allowing flips and retries
     def solve(self, max_flips, max_tries, probability):
-        variable_clauses = self.get_variable_clauses()  # Get the mapping from variables to clauses
         satisfied = {clause + 1: False for clause in range(self.clauses)}  # Initialize all clauses as unsatisfied
+        
+        n_variable_clauses = 0
         
         for tries in range(max_tries):
             # Randomly assign True/False to each variable
+            # random.seed(0)
             assignment = {variable + 1: random.choice([True, False]) for variable in range(self.variables)}
+            variable_clauses, score_clauses, clause_assignment = self.get_variable_clauses(assignment) 
 
             for flips in range(max_flips):
-                satisfied = self.evaluate_formula(assignment, satisfied)
-                satisfied_total = self.get_satisfied_total(satisfied)
-                if satisfied_total == self.clauses:
-                    return True, tries, flips  # If all clauses are satisfied, return success
-
-                clauses_unsatisfied = [key for key, value in satisfied.items() if not value]
+                
+                satisfied_total = 0 
+                for clauses in score_clauses:
+                    if score_clauses[clauses] != 0:
+                        satisfied_total += 1
+                if satisfied_total == self.clauses:  # If all clauses are satisfied
+                    return True, tries, flips                
+                
+                # Choose one of the unsatisfied clauses
+                clauses_unsatisfied = [key for key, value in score_clauses.items() if value==0]
                 clause_unsatisfied = random.choice(clauses_unsatisfied)
+                
                 freebie_move = False
                 
-                break_count_min = self.clauses
-                variable_break_count_min = 0
+                score_clauses_auxiliar = {}
+                break_count = {}
+                satisfied_total_auxiliar = {}
                 
-                for variable in self.formula[clause_unsatisfied - 1]:
-                    variable = abs(variable)
-                    satisfied_auxiliar = satisfied.copy()
-                    assignment_auxiliar = assignment.copy()
-                    assignment_auxiliar[variable] = not assignment_auxiliar[variable]
+                for variable in clause_assignment[clause_unsatisfied]:
+
+                    break_count[variable] = 0
+                    score_clauses_auxiliar[variable] = score_clauses.copy()
+                    satisfied_total_auxiliar[variable] = satisfied_total
                     
-                    satisfied_auxiliar = self.evaluate_formula(assignment_auxiliar, satisfied_auxiliar, variable_clauses[variable])
-                    satisfied_total_auxiliar = self.get_satisfied_total(satisfied_auxiliar)   
-                    
-                    break_count = self.clauses - satisfied_total_auxiliar
-                    
-                    if satisfied_total_auxiliar == self.clauses:
-                        return True, tries, flips
-                    # If flipping improves or maintains satisfaction, flip the variable
-                    if satisfied_total_auxiliar >= satisfied_total:
-                        assignment[abs(variable)] = not assignment[abs(variable)]
+                    for clause in variable_clauses[variable]:
+                        if variable > 0:
+                            if score_clauses_auxiliar[variable][clause] == 1:
+                                break_count[variable] += 1
+                                satisfied_total_auxiliar[variable] -= 1
+                            score_clauses_auxiliar[variable][clause] -= 1
+ 
+                        else:
+                            if score_clauses_auxiliar[variable][clause] == 0:
+                                satisfied_total_auxiliar[variable] += 1
+                            score_clauses_auxiliar[variable][clause] += 1
+
+                    # If exists -variable calculate its score clauses            
+                    if -variable in variable_clauses:
+                        for clause in variable_clauses[-variable]:
+                            if variable>0:
+                                if score_clauses_auxiliar[variable][clause] == 0:
+                                    satisfied_total_auxiliar[variable] += 1
+                                score_clauses_auxiliar[variable][clause] += 1
+                            else:
+                                if score_clauses_auxiliar[variable][clause] == 1:
+                                    break_count[variable] += 1
+                                    satisfied_total_auxiliar[variable] -= 1
+                                score_clauses_auxiliar[variable][clause] -= 1     
+                
+                    if break_count[variable] == 0:
+                        variable_flip = variable
                         freebie_move = True
                         break
-                    elif break_count < break_count_min:
-                        break_count_min = break_count
-                        variable_break_count_min = variable
-                # After evaluating all variables in the unsatisfied clause
+
                 if not freebie_move:
                     # With a certain probability, choose a random flip or the best found flip
                     if random.random() <= probability:
-                        variable = random.choice(self.formula[clause_unsatisfied - 1])
-                        assignment[abs(variable)] = not assignment[abs(variable)]
+                        variable_flip = random.choice(list(break_count.keys()))
                     else:
-                        assignment[variable_break_count_min] = not assignment[variable_break_count_min]
-        
+                        variable_flip = min(break_count, key=lambda k:break_count[k])  
+                            
+                score_clauses = score_clauses_auxiliar[variable_flip].copy()
+                satisfied_total = satisfied_total_auxiliar[variable_flip]
+                
+                if satisfied_total == self.clauses:  # If all clauses are satisfied
+                    return True, tries, flips
+
         # After all the attempts, if a solution has not been found, return failure
-        satisfied_total = self.get_satisfied_total(satisfied)
+        # satisfied_total = self.get_satisfied_total(satisfied)
         return False, max_tries, max_flips

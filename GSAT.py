@@ -47,15 +47,23 @@ class GSAT:
         return satisfied
 
     # Get a dictionary linking variables to the clauses they appear in
-    def get_variable_clauses(self):
+    def get_variable_clauses(self, assignment):
         variable_clauses = {}
+        score_clauses = {}
         for clause_index, clause in enumerate(self.formula, start=1):
             for literal in clause:
-                variable = abs(literal)
+                if assignment[abs(literal)]:
+                    variable = literal
+                else:
+                    variable = -literal
                 if variable not in variable_clauses:
                     variable_clauses[variable] = []
                 variable_clauses[variable].append(clause_index)
-        return variable_clauses
+                if clause_index not in score_clauses:
+                    score_clauses[clause_index] = 0
+                if variable > 0:
+                    score_clauses[clause_index] += 1
+        return variable_clauses, score_clauses
 
     # Count how many clauses are satisfied in total
     def get_satisfied_total(self, satisfied):
@@ -63,41 +71,49 @@ class GSAT:
 
     # Main method to solve the SAT problem using a max flips and max tries approach
     def solve(self, max_flips, max_tries):
-        variable_clauses = self.get_variable_clauses()  # Mapping of variables to clauses
-        satisfied = {clause+1: False for clause in range(self.clauses)}  # Initial state of clause satisfaction
         
         for tries in range(max_tries):
             # Random initial assignment
+            # random.seed(0)
             assignment = {variable+1: random.choice([True, False]) for variable in range(self.variables)}
-            
+            variable_clauses,score_clauses = self.get_variable_clauses(assignment) 
+
             for flips in range(max_flips):
-                satisfied = self.evaluate_formula(assignment)
-                satisfied_total = self.get_satisfied_total(satisfied)
+                               
+                satisfied_total = 0 
+                for clauses in score_clauses:
+                    if score_clauses[clauses] != 0:
+                        satisfied_total += 1
                 if satisfied_total == self.clauses:  # If all clauses are satisfied
-                    return True, tries, flips
-                
+                    return True, tries, flips               
+            
                 break_count_min = self.clauses
-                variable_break_count_min = 0
+                score_clauses_auxiliar = score_clauses.copy()
                 
-                for variable in variable_clauses.keys():
-                    satisfied_auxiliar = satisfied.copy()
-                    assignment_auxiliar = assignment.copy()
-                    assignment_auxiliar[variable] = not assignment_auxiliar[variable]
-                    
-                    satisfied_auxiliar = self.evaluate_formula(assignment_auxiliar)
-                    satisfied_total_auxiliar = self.get_satisfied_total(satisfied_auxiliar)
-                    
+                for variable in range(1,self.variables+1):
+                    satisfied_total_auxiliar = satisfied_total
+                    # if variable is true and score clause is 1, one less satisfied clause
+                    if variable in variable_clauses: 
+                        for clause in variable_clauses[variable]:
+                            if score_clauses_auxiliar[clause] == 1:
+                                satisfied_total_auxiliar -= 1
+                            score_clauses_auxiliar[clause] -= 1 
+                    # if variable is false and score clause is 0, one more satisfied clause
+                    if -variable in variable_clauses: 
+                        for clause in variable_clauses[-variable]:
+                            if score_clauses_auxiliar[clause] == 0:
+                                satisfied_total_auxiliar += 1
+                            score_clauses_auxiliar[clause] += 1          
+                                          
                     break_count = self.clauses - satisfied_total_auxiliar
 
                     if satisfied_total_auxiliar == self.clauses:
                         return True, tries, flips
                     elif break_count < break_count_min:
                         break_count_min = break_count
-                        variable_break_count_min = variable
-                
-                # Flip the variable that minimizes the number of unsatisfied clauses
-                assignment[variable_break_count_min] = not assignment[variable_break_count_min]
+                        score_clauses_min = score_clauses_auxiliar.copy()
+
+                score_clauses = score_clauses_min.copy()
         
         # Return the final result after all tries and flips
-        satisfied_total = self.get_satisfied_total(satisfied)
         return False, max_tries, max_flips

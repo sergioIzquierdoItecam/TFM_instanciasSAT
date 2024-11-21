@@ -1,0 +1,1 @@
+n=100, m=100, GSAT Success: 100.0%, WalkSAT Success: 0.0%, Time: 13.18 seconds

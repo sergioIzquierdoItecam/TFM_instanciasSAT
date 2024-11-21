@@ -1,0 +1,13 @@
+n=1000, m=1000, WalkSAT Success: 0%, Time: 9.95 seconds, Clauses: 37052
+n=1000, m=1500, WalkSAT Success: 0%, Time: 13.36 seconds, Clauses: 100195
+n=1000, m=2000, WalkSAT Success: 0%, Time: 17.13 seconds, Clauses: 196525
+n=1000, m=2500, WalkSAT Success: 0%, Time: 21.60 seconds, Clauses: 326727
+n=1000, m=3000, WalkSAT Success: 0%, Time: 25.61 seconds, Clauses: 493582
+n=1000, m=3500, WalkSAT Success: 0%, Time: 30.94 seconds, Clauses: 701952
+n=1000, m=4000, WalkSAT Success: 0%, Time: 36.14 seconds, Clauses: 951034
+n=1000, m=4100, WalkSAT Success: 0%, Time: 36.36 seconds, Clauses: 1210664
+n=1000, m=4200, WalkSAT Success: 0%, Time: 37.48 seconds, Clauses: 1481196
+n=1000, m=4300, WalkSAT Success: 0%, Time: 38.59 seconds, Clauses: 1755905
+n=1000, m=4400, WalkSAT Success: 0%, Time: 40.77 seconds, Clauses: 2043847
+n=1000, m=4500, WalkSAT Success: 0%, Time: 41.50 seconds, Clauses: 2338916
+n=1000, m=5000, WalkSAT Success: 0%, Time: 46.13 seconds, Clauses: 2675160

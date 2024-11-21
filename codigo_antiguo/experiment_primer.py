@@ -24,6 +24,7 @@ def run_experiment(n, m, k, algorithm="both", p=0.5, max_tries=50, max_flips=100
     for num_vars in n:
         # Calculate the number of clauses based on num_vars and a base ratio array m
         m = (base_m * num_vars).astype(int)
+        n_clauses_max = 0
         
         # Open a file to write experiment outputs for GSAT results
         with open(f'results/results_{algorithm}_{current_datetime}.txt', 'w') as file:
@@ -45,7 +46,10 @@ def run_experiment(n, m, k, algorithm="both", p=0.5, max_tries=50, max_flips=100
 
                     if algorithm in ["both", "WalkSAT"]:
                         walksat_solver = WalkSAT(num_vars, num_clauses, k, seed)
-                        if walksat_solver.solve(max_flips, max_tries, p)[0]:
+                        success, tries, flips, n_clauses = walksat_solver.solve(max_flips, max_tries, p)
+                        n_clauses_max += n_clauses
+                        if success:
+                        # if walksat_solver.solve(max_flips, max_tries, p)[0]:
                             walksat_success_rate += 1
 
                 # Store the success rates in the results dictionary
@@ -61,7 +65,7 @@ def run_experiment(n, m, k, algorithm="both", p=0.5, max_tries=50, max_flips=100
                 iteration_end_time = time.time()
                 results['Time (seconds)'].append(iteration_end_time - iteration_start_time)
                 file.write(f'{config}, GSAT Success: {gsat_success_rate}%, WalkSAT Success: {walksat_success_rate}%, Time: {iteration_end_time - iteration_start_time:.2f} seconds\n')
-                print(f'{config}, GSAT Success: {gsat_success_rate}%, WalkSAT Success: {walksat_success_rate}%, Time: {iteration_end_time - iteration_start_time:.2f} seconds')
+                print(f'{config}, GSAT Success: {gsat_success_rate}%, WalkSAT Success: {walksat_success_rate}%, Time: {iteration_end_time - iteration_start_time:.2f} seconds, Clauses: {n_clauses_max}')
     
     # Save the results to an Excel file
     df = pd.DataFrame(results)
@@ -70,13 +74,13 @@ def run_experiment(n, m, k, algorithm="both", p=0.5, max_tries=50, max_flips=100
     return df
 
 # Experiment configuration
-n = [1000]  # Number of variables
+n = [100]  # Number of variables
 base_m = np.array([1, 1.5, 2, 2.5, 3, 3.5, 4, 4.1, 4.2, 4.3, 4.4, 4.5, 5])  # Ratios of clauses to variables
 k = 3  # Number of literals per clause
 p = 0.5  # Probability parameter for WalkSAT
-algorithm = "WalkSAT"  # Algorithm to use: "GSAT", "WalkSAT", or "both"
+algorithm = "GSAT"  # Algorithm to use: "GSAT", "WalkSAT", or "both"
 max_tries = 50
-max_flips = 100
+max_flips = 1000
 
 # Run the experiment
 results_df = run_experiment(n, base_m, k, algorithm, p, max_tries, max_flips)

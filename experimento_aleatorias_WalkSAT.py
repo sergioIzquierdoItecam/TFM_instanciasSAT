@@ -30,7 +30,7 @@ def run_experiment(n, m, k, algorithm="both", p=0.5, max_tries=50, max_flips=100
         # Open a file to write experiment outputs for GSAT results
         with open(f'results/results_{algorithm}_{current_datetime}.txt', 'w') as file:
             for num_clauses in m:
-                config = f'n={num_vars}, m/n={num_clauses/num_vars}'
+                config = f'p={p[index_num_vars]}, n={num_vars}, m/n={num_clauses/num_vars}'
                 results['Configurations'].append(config)
                 iteration_start_time = time.time()
 
@@ -54,7 +54,7 @@ def run_experiment(n, m, k, algorithm="both", p=0.5, max_tries=50, max_flips=100
 
                     if algorithm in ["both", "WalkSAT"]:
                         walksat_solver = WalkSAT(num_vars, num_clauses, k, seed)
-                        success, tries, flips = walksat_solver.solve(max_flips[index_num_vars], max_tries, p)
+                        success, tries, flips = walksat_solver.solve(max_flips[index_num_vars], max_tries, p[index_num_vars])
                         if success:
                             walksat_success_rate += 1
                         total_flips += flips * tries
@@ -86,10 +86,10 @@ def run_experiment(n, m, k, algorithm="both", p=0.5, max_tries=50, max_flips=100
     return df
 
 # Lista de probabilidades para WalkSAT
-probabilidades = [0.1,0.2]
+probabilidades = [0.1,0.2,0.3,0.5,0.7]
 
 # Configuración del experimento
-n = [1000]  # Número de variables
+n = [1000 for x in probabilidades]  # Número de variables
 base_m = np.arange(3.5, 4.5, 0.1)  # Ratios de cláusulas a variables
 k = 3  # Número de literales por cláusula
 algorithm = "WalkSAT"  # Algoritmo a usar: "GSAT", "WalkSAT", o "both"
@@ -114,39 +114,36 @@ if externo:
                 data.append({'n': n, 'm/n': m_n, 'WalkSAT Success': walksat_success})
     results_df = pd.DataFrame(data)
     # Obtener valores únicos de n y filtrar datos
+
+
 else:
-    plt.figure(figsize=(10, 6))
-    for p in probabilidades:
-        # Ejecutar el experimento para cada probabilidad
-        results_df = run_experiment(n, base_m, k, algorithm, p, max_tries, max_flips)
+    # Run the experiment
+    results_df = run_experiment(n, base_m, k, algorithm, probabilidades, max_tries, max_flips)
 
-        # Añadir la proporción m/n para graficar los resultados
-        results_df['m/n'] = base_m.tolist() * len(n)
+    # Add m/n ratio for plotting results
+    results_df['m/n'] = base_m.tolist()*len(n)
 
-        # Guardar los resultados en un archivo Excel
-        current_datetime = datetime.now().strftime("%Y%m%d_%H%M%S")
-        results_df.to_excel(f"results/results_{algorithm}_p{p}_{current_datetime}.xlsx", index=False)
+# Plotting the results
+plt.figure(figsize=(10, 6))
+for p in probabilidades:
+    plt.scatter(results_df['m/n'].iloc[len(base_m) * i:len(base_m) * (i + 1)],
+                    results_df['WalkSAT Success'].iloc[len(base_m) * i:len(base_m) * (i + 1)],
+                    label=f'probability={p}',
+                    marker='o')
+    plt.plot(results_df['m/n'].iloc[len(base_m) * i:len(base_m) * (i + 1)],
+                results_df['WalkSAT Success'].iloc[len(base_m) * i:len(base_m) * (i + 1)],
+                linestyle='--')
+        
+# Establecer el título y las etiquetas del gráfico
+plt.title(f"WalkSAT random - n=1000, max_tries={max_tries}, max_flips={max_flips[0]}")
+plt.xlabel("Ratio of Clauses to Variables (m/n)")
+plt.ylabel("Percentage of Solved Instances (%)")
 
-        # Graficar los resultados
-        for i in range(len(n)):
-            plt.scatter(results_df['m/n'].iloc[len(base_m) * i:len(base_m) * (i + 1)],
-                        results_df['WalkSAT Success'].iloc[len(base_m) * i:len(base_m) * (i + 1)],
-                        label=f'probability={p}',
-                        marker='o')
-            plt.plot(results_df['m/n'].iloc[len(base_m) * i:len(base_m) * (i + 1)],
-                     results_df['WalkSAT Success'].iloc[len(base_m) * i:len(base_m) * (i + 1)],
-                     linestyle='--')
+# Añadir una leyenda al gráfico
+plt.legend()
 
-    # Establecer el título y las etiquetas del gráfico
-    plt.title(f"WalkSAT random - n=1000, max_tries={max_tries}, max_flips={max_flips[0]}")
-    plt.xlabel("Ratio of Clauses to Variables (m/n)")
-    plt.ylabel("Percentage of Solved Instances (%)")
+# Guardar el gráfico en un archivo
+plt.savefig(f'results/results_WalkSAT_max_tries={max_tries}_max_flips={max_flips[0]}.png')
 
-    # Añadir una leyenda al gráfico
-    plt.legend()
-
-    # Guardar el gráfico en un archivo
-    plt.savefig(f'results/results_WalkSAT_max_tries={max_tries}_max_flips={max_flips[0]}.png')
-
-    # Mostrar el gráfico
-    plt.show()
+# Mostrar el gráfico
+plt.show()

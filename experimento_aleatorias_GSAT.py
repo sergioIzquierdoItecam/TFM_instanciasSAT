@@ -109,14 +109,14 @@ def run_experiment(n, m, k, algorithm="both", p=0.5, max_tries=50, max_flips=100
 probabilidades = [0.3, 0.7]
 
 # Configuración del experimento
-n = [500,1000]  # Número de variables
-base_m = np.arange(3.5, 5.5, 0.1)  # Ratios de cláusulas a variables
+n = [1000]  # Número de variables
+base_m = np.arange(4.9, 5.5, 0.1)  # Ratios de cláusulas a variables
 k = 3  # Número de literales por cláusula
 algorithm = "GSAT"  # Algoritmo a usar: "GSAT", "WalkSAT", o "both"
 max_tries = 50
 max_flips = [int(50) for x in n]
 
-externo = False
+externo = True
 
 if externo:
     file_path = 'resultados.txt'  # Reemplaza con la ruta a tu archivo .txt

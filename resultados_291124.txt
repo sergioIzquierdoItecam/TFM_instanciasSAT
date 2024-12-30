@@ -320,6 +320,7 @@ n=500, m/n=3.7, WalkSAT Success: 100.0%, Total Flips: 43049, Time: 6.91 seconds
 n=500, m/n=3.8, WalkSAT Success: 100.0%, Total Flips: 56327, Time: 9.08 seconds
 n=500, m/n=3.9, WalkSAT Success: 100.0%, Total Flips: 83213, Time: 12.38 seconds
 
+
 tries=50, flips=50
 n=50, m/n=3.5, GSAT Success: 100.0%, Total Flips: 3333, Time: 2.94 seconds
 n=50, m/n=3.6, GSAT Success: 100.0%, Total Flips: 3383, Time: 2.73 seconds

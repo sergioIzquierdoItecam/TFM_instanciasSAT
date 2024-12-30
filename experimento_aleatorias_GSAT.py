@@ -18,7 +18,7 @@ from datetime import datetime
 # Function to run an experiment based on parameters
 def run_experiment(n, m, k, algorithm="both", p=0.5, max_tries=50, max_flips=100):
     # Dictionary to collect experiment results
-    results = {'Configurations': [], 'GSAT Success': [], 'WalkSAT Success': [], 'Time (seconds)': [], 'GSAT Flips': [], 'GSAT Tries': [], 'WalkSAT Flips': [], 'WalkSAT Tries': [], 'Total Flips': []}
+    results = {'Configurations': [], 'GSAT Success': [], 'WalkSAT Success': [], 'Time (seconds)': [], 'Total Flips': []}
     current_datetime = datetime.now().strftime("%Y%m%d_%H%M%S")
 
     # Loop over each variable count in n
@@ -109,12 +109,12 @@ def run_experiment(n, m, k, algorithm="both", p=0.5, max_tries=50, max_flips=100
 probabilidades = [0.3, 0.7]
 
 # Configuración del experimento
-n = [1000]  # Número de variables
+n = [500,1000]  # Número de variables
 base_m = np.arange(3.5, 5.5, 0.1)  # Ratios de cláusulas a variables
 k = 3  # Número de literales por cláusula
-algorithm = "WalkSAT"  # Algoritmo a usar: "GSAT", "WalkSAT", o "both"
-max_tries = 10
-max_flips = [int(1*x) for x in n]
+algorithm = "GSAT"  # Algoritmo a usar: "GSAT", "WalkSAT", o "both"
+max_tries = 50
+max_flips = [int(50) for x in n]
 
 externo = False
 
@@ -168,9 +168,9 @@ else:
                          linestyle='--')
 
         # Establecer el título y las etiquetas del gráfico
-        plt.title(f"Resultados para p={p}")
-        plt.xlabel("Proporción de Cláusulas a Variables (m/n)")
-        plt.ylabel("Porcentaje de Instancias Resueltas")
+        plt.title(f"WalkSAT random - max_tries={max_tries}, max_flips={max_flips[0]}")
+        plt.xlabel("Ratio of Clauses to Variables (m/n)")
+        plt.ylabel("Percentage of Solved Instances (%)")
 
         # Añadir una leyenda al gráfico
         plt.legend()

@@ -1,0 +1,1 @@
+n=500, m/n=3.5, GSAT Success: 23.0%, Total Flips: 195318, Time: 129.55 seconds

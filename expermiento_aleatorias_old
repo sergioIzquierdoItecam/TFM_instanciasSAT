@@ -13,12 +13,11 @@ import matplotlib.pyplot as plt
 from GSAT import GSAT
 from WalkSAT import WalkSAT
 from datetime import datetime
-# from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Function to run an experiment based on parameters
 def run_experiment(n, m, k, algorithm="both", p=0.5, max_tries=50, max_flips=100):
     # Dictionary to collect experiment results
-    results = {'Configurations': [], 'GSAT Success': [], 'WalkSAT Success': [], 'Time (seconds)': [], 'GSAT Flips': [], 'GSAT Tries': [], 'WalkSAT Flips': [], 'WalkSAT Tries': [], 'Total Flips': []}
+    results = {'Configurations': [], 'GSAT Success': [], 'WalkSAT Success': [], 'Time (seconds)': []}
     current_datetime = datetime.now().strftime("%Y%m%d_%H%M%S")
 
     # Loop over each variable count in n
@@ -37,49 +36,23 @@ def run_experiment(n, m, k, algorithm="both", p=0.5, max_tries=50, max_flips=100
                 # Generate a list of random seeds
                 s = random.sample(range(1001), 100)
                 gsat_success_rate = walksat_success_rate = 0
-                gsat_total_flips = gsat_total_tries = 0
-                walksat_total_flips = walksat_total_tries = 0
-                total_flips = total_tries = 0
                 
                 # Test each seed for the given SAT solver configurations
-                tasks = []
-                # with ThreadPoolExecutor() as executor:
                 for seed in s:
+                    # seed = 0
                     if algorithm in ["both", "GSAT"]:
                         gsat_solver = GSAT(num_vars, num_clauses, k, seed)
-                        success, tries, flips = gsat_solver.solve(max_flips[index_num_vars], max_tries)
-                        if success:
+                        if gsat_solver.solve(max_flips[index_num_vars], max_tries)[0]:
                             gsat_success_rate += 1
-                        total_flips += flips * tries
-                        # total_tries += tries
 
                     if algorithm in ["both", "WalkSAT"]:
                         walksat_solver = WalkSAT(num_vars, num_clauses, k, seed)
-                        # tasks.append(executor.submit(
-                        #     walksat_solver.solve, max_flips[index_num_vars], max_tries, p
-                        # ))    
-                        # tasks.append(task)
-                        success, tries, flips = walksat_solver.solve(max_flips[index_num_vars], max_tries, p)
-                        if success:
+                        # success, tries, flips = walksat_solver.solve(max_flips[index_num_vars], max_tries, p)
+                        # n_clauses_max += n_clauses
+                        if walksat_solver.solve(max_flips[index_num_vars], max_tries, p)[0]:
+                        # if walksat_solver.solve(max_flips, max_tries, p)[0]:
                             walksat_success_rate += 1
-                        total_flips += flips * tries
-                        # total_tries += tries
 
-                    # Recoger resultados de WalkSAT
-                    # for future in as_completed(tasks):
-                    #     success, tries, flips = future.result()
-                    #     if success:
-                    #         walksat_success_rate += 1
-                    #     total_flips += flips * tries
-                    #     total_tries += tries
-                # if tasks:
-                #     results_walksat = await asyncio.gather(*tasks)
-                #     for success, tries, flips in results_walksat:
-                #         if success:
-                #             walksat_success_rate += 1
-                #         total_flips += flips * tries
-                #         total_tries += tries
-                
                 # Store the success rates in the results dictionary
                 if algorithm in ["both", "GSAT"]:
                     results['GSAT Success'].append((gsat_success_rate / len(s)) * 100)
@@ -92,12 +65,8 @@ def run_experiment(n, m, k, algorithm="both", p=0.5, max_tries=50, max_flips=100
 
                 iteration_end_time = time.time()
                 results['Time (seconds)'].append(iteration_end_time - iteration_start_time)
-                results['Total Flips'].append(total_flips)
-                success_rate = (gsat_success_rate + walksat_success_rate) / len(s) * 100
-                file.write(f'{config}, {algorithm} Success: {success_rate}%, Total Flips: {total_flips}, Time: {iteration_end_time - iteration_start_time:.2f} seconds\n')
-                print(f'{config}, {algorithm} Success: {success_rate}%, Total Flips: {total_flips}, Time: {iteration_end_time - iteration_start_time:.2f} seconds')
-                # file.write(f'{config}, GSAT Success: {gsat_success_rate / len(s)* 100}%, WalkSAT Success: {walksat_success_rate / len(s)* 100}%, Total Flips: {total_flips}, Time: {iteration_end_time - iteration_start_time:.2f} seconds\n')
-                # print(f'{config}, GSAT Success: {gsat_success_rate / len(s)* 100}%, WalkSAT Success: {walksat_success_rate / len(s)* 100}%, Total Flips: {total_flips}, Time: {iteration_end_time - iteration_start_time:.2f} seconds\n')
+                file.write(f'{config}, GSAT Success: {gsat_success_rate / len(s)* 100}%, WalkSAT Success: {walksat_success_rate / len(s)* 100}%, Time: {iteration_end_time - iteration_start_time:.2f} seconds\n')
+                print(f'{config}, GSAT Success: {gsat_success_rate / len(s)* 100}%, WalkSAT Success: {walksat_success_rate / len(s)* 100}%, Time: {iteration_end_time - iteration_start_time:.2f} seconds')#  Clauses: {n_clauses_max}')
     
     # Save the results to an Excel file
     df = pd.DataFrame(results)
@@ -106,11 +75,11 @@ def run_experiment(n, m, k, algorithm="both", p=0.5, max_tries=50, max_flips=100
     return df
 
 # Experiment configuration
-n = [50,100,250,500,1000]  # Number of variables
-# n = [1000,2000,5000,10000]  # Number of variables
+# n = [50, 100, 250, 500, 1000]  # Number of variables
+n = [5000]  # Number of variables
 # n = [12, 20, 24, 40, 50, 100]  # Number of variables
 # base_m = np.array([1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5])  # Ratios of clauses to variables
-base_m = np.arange(3.5, 5.5, 0.1)  # Ratios of clauses to variables
+base_m = np.arange(3.8, 4.5, 0.1)  # Ratios of clauses to variables
 
 # base_m = np.array([1, 1.5, 2, 2.5, 3, 3.5, 3.6, 3.7, 3.8, 3.9, 4, 4.1, 4.2, 4.3, 4.4, 4.5, 5])  # Ratios of clauses to variables
 # base_m = np.arange(3,7,0.2)  # Ratios of clauses to variables
@@ -121,38 +90,14 @@ algorithm = "WalkSAT"  # Algorithm to use: "GSAT", "WalkSAT", or "both"
 max_tries = 10
 # max_flips = [50, 50, 50, 50, 50]
 # max_flips = [int(x / 2) for x in n]
-max_flips = [int(1*x) for x in n]
-# max_flips = [int(50) for x in n]
+max_flips = 10*n
 # GSAT - max_tries = 50, max_flips = 50
 
-externo = False
+# Run the experiment
+results_df = run_experiment(n, base_m, k, algorithm, p, max_tries, max_flips)
 
-if externo:
-    file_path = 'resultados.txt'  # Reemplaza con la ruta a tu archivo .txt
-    data = []
-
-    with open(file_path, 'r') as file:
-        for line in file:
-            line = line.strip()
-            if line:
-                # Dividir y extraer los datos de cada línea
-                parts = line.split(', ')
-                n = int(parts[0].split('=')[1])
-                m_n = float(parts[1].split('=')[1])
-                walksat_success = float(parts[2].split(': ')[1].strip('%')) if 'WalkSAT Success' in parts[2] else None
-                data.append({'n': n, 'm/n': m_n, 'WalkSAT Success': walksat_success})
-    results_df = pd.DataFrame(data)
-    # Obtener valores únicos de n y filtrar datos
-    n = results_df['n'].unique()
-    base_m = results_df['m/n'].unique()
-else:
-    # Run the experiment
-    results_df = run_experiment(n, base_m, k, algorithm, p, max_tries, max_flips)
-
-    # Add m/n ratio for plotting results
-    results_df['m/n'] = base_m.tolist()*len(n)
-
-
+# Add m/n ratio for plotting results
+results_df['m/n'] = base_m.tolist()*len(n)
 
 # Plotting the results
 plt.figure(figsize=(10, 6))
@@ -174,7 +119,7 @@ if algorithm in ["both", "WalkSAT"]:
                     linestyle='--')
         
 # Set the title and labels for the plot
-plt.title(f"WalkSAT and GSAT random - max tries={max_tries}, max flips=1n")
+plt.title(f"WalkSAT and GSAT random - max tries={max_tries}, max flips=10n")
 plt.xlabel("Ratio of Clauses to Variables (m/n)")
 plt.ylabel("Percentage of Solved Instances")
 

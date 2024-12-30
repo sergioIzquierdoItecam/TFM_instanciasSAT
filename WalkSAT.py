@@ -91,7 +91,7 @@ class WalkSAT:
                     if score_clauses[clauses] != 0:
                         satisfied_total += 1
                 if satisfied_total == self.clauses:  # If all clauses are satisfied
-                    return True, tries, flips                
+                    return True, tries+1, flips+1                
                 
                 # Choose one of the unsatisfied clauses
                 clauses_unsatisfied = [key for key, value in score_clauses.items() if value==0]
@@ -150,7 +150,7 @@ class WalkSAT:
                 satisfied_total = satisfied_total_auxiliar[variable_flip]
                 
                 if satisfied_total == self.clauses:  # If all clauses are satisfied
-                    return True, tries, flips
+                    return True, tries+1, flips+1
 
         # After all the attempts, if a solution has not been found, return failure
         # satisfied_total = self.get_satisfied_total(satisfied)

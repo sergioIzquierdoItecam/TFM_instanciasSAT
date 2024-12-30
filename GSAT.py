@@ -85,7 +85,7 @@ class GSAT:
                     if score_clauses[clauses] != 0:
                         satisfied_total += 1
                 if satisfied_total == self.clauses:  # If all clauses are satisfied
-                    return True, tries, flips               
+                    return True, tries+1, flips+1            
             
                 break_count_min = self.clauses
                 score_clauses_auxiliar = score_clauses.copy()
@@ -108,7 +108,7 @@ class GSAT:
                     break_count = self.clauses - satisfied_total_auxiliar
 
                     if satisfied_total_auxiliar == self.clauses:
-                        return True, tries, flips
+                        return True, tries+1, flips+1
                     elif break_count < break_count_min:
                         break_count_min = break_count
                         score_clauses_min = score_clauses_auxiliar.copy()

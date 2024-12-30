@@ -1,0 +1,4 @@
+n=1500, m/n=3.5, GSAT Success: 0.0%, WalkSAT Success: 100.0%, GSAT Flips: 0, WalkSAT Flips: 120285, GSAT Tries: 0, WalkSAT Tries: 0, Time: 53.58 seconds
+n=1500, m/n=3.6, GSAT Success: 0.0%, WalkSAT Success: 100.0%, GSAT Flips: 0, WalkSAT Flips: 129643, GSAT Tries: 0, WalkSAT Tries: 5, Time: 62.08 seconds
+n=1500, m/n=3.7, GSAT Success: 0.0%, WalkSAT Success: 100.0%, GSAT Flips: 0, WalkSAT Flips: 136956, GSAT Tries: 0, WalkSAT Tries: 24, Time: 83.62 seconds
+n=1500, m/n=3.8, GSAT Success: 0.0%, WalkSAT Success: 98.0%, GSAT Flips: 0, WalkSAT Flips: 142726, GSAT Tries: 0, WalkSAT Tries: 165, Time: 184.02 seconds

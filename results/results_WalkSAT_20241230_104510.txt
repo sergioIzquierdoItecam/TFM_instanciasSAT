@@ -1,0 +1,10 @@
+n=1000, m/n=3.5, WalkSAT Success: 100.0%, Total Flips: 82845, Time: 19.95 seconds
+n=1000, m/n=3.6, WalkSAT Success: 100.0%, Total Flips: 94739, Time: 23.43 seconds
+n=1000, m/n=3.7, WalkSAT Success: 100.0%, Total Flips: 125827, Time: 31.35 seconds
+n=1000, m/n=3.8, WalkSAT Success: 100.0%, Total Flips: 237888, Time: 58.13 seconds
+n=1000, m/n=3.9, WalkSAT Success: 83.0%, Total Flips: 523271, Time: 126.90 seconds
+n=1000, m/n=4.0, WalkSAT Success: 39.0%, Total Flips: 787709, Time: 191.69 seconds
+n=1000, m/n=4.1, WalkSAT Success: 11.0%, Total Flips: 938406, Time: 232.31 seconds
+n=1000, m/n=4.2, WalkSAT Success: 1.0%, Total Flips: 993940, Time: 306.95 seconds
+n=1000, m/n=4.3, WalkSAT Success: 0.0%, Total Flips: 1000000, Time: 263.19 seconds
+n=1000, m/n=4.4, WalkSAT Success: 0.0%, Total Flips: 1000000, Time: 267.90 seconds

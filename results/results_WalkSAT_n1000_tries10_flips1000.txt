@@ -1,6 +1,0 @@
-n=1000, m=1000, GSAT Success: 0%, WalkSAT Success: 100%, Time: 9.97 seconds
-n=1000, m=1500, GSAT Success: 0%, WalkSAT Success: 100%, Time: 19.50 seconds
-n=1000, m=2000, GSAT Success: 0%, WalkSAT Success: 100%, Time: 37.56 seconds
-n=1000, m=2500, GSAT Success: 0%, WalkSAT Success: 100%, Time: 82.74 seconds
-n=1000, m=3000, GSAT Success: 0%, WalkSAT Success: 99%, Time: 479.31 seconds
-n=1000, m=3500, GSAT Success: 0%, WalkSAT Success: 0%, Time: 3786.49 seconds

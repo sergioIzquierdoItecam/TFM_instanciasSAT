@@ -1,0 +1,100 @@
+n=50, m/n=1.0, GSAT Success: 100.0%, Total Flips: 588, Time: 2.19 seconds
+n=50, m/n=1.1, GSAT Success: 100.0%, Total Flips: 701, Time: 2.06 seconds
+n=50, m/n=1.2, GSAT Success: 100.0%, Total Flips: 806, Time: 2.10 seconds
+n=50, m/n=1.3, GSAT Success: 100.0%, Total Flips: 953, Time: 2.24 seconds
+n=50, m/n=1.4, GSAT Success: 100.0%, Total Flips: 1158, Time: 2.33 seconds
+n=50, m/n=1.5, GSAT Success: 100.0%, Total Flips: 1302, Time: 2.28 seconds
+n=50, m/n=1.6, GSAT Success: 100.0%, Total Flips: 1514, Time: 2.32 seconds
+n=50, m/n=1.7, GSAT Success: 100.0%, Total Flips: 1730, Time: 2.39 seconds
+n=50, m/n=1.8, GSAT Success: 100.0%, Total Flips: 1848, Time: 2.53 seconds
+n=50, m/n=1.9, GSAT Success: 100.0%, Total Flips: 2310, Time: 2.74 seconds
+n=50, m/n=2.0, GSAT Success: 100.0%, Total Flips: 2706, Time: 2.78 seconds
+n=50, m/n=2.1, GSAT Success: 100.0%, Total Flips: 3426, Time: 2.97 seconds
+n=50, m/n=2.2, GSAT Success: 100.0%, Total Flips: 3770, Time: 3.14 seconds
+n=50, m/n=2.3, GSAT Success: 100.0%, Total Flips: 5357, Time: 3.72 seconds
+n=50, m/n=2.4, GSAT Success: 100.0%, Total Flips: 6344, Time: 3.95 seconds
+n=50, m/n=2.5, GSAT Success: 100.0%, Total Flips: 9176, Time: 4.81 seconds
+n=50, m/n=2.6, GSAT Success: 99.0%, Total Flips: 10767, Time: 4.83 seconds
+n=50, m/n=2.7, GSAT Success: 97.0%, Total Flips: 19476, Time: 6.74 seconds
+n=50, m/n=2.8, GSAT Success: 97.0%, Total Flips: 19821, Time: 6.90 seconds
+n=50, m/n=2.9, GSAT Success: 97.0%, Total Flips: 24006, Time: 8.14 seconds
+n=100, m/n=1.0, GSAT Success: 100.0%, Total Flips: 1558, Time: 2.38 seconds
+n=100, m/n=1.1, GSAT Success: 100.0%, Total Flips: 1524, Time: 2.37 seconds
+n=100, m/n=1.2, GSAT Success: 100.0%, Total Flips: 2008, Time: 2.62 seconds
+n=100, m/n=1.3, GSAT Success: 100.0%, Total Flips: 2671, Time: 2.83 seconds
+n=100, m/n=1.4, GSAT Success: 100.0%, Total Flips: 3177, Time: 2.97 seconds
+n=100, m/n=1.5, GSAT Success: 100.0%, Total Flips: 3826, Time: 3.32 seconds
+n=100, m/n=1.6, GSAT Success: 100.0%, Total Flips: 5246, Time: 3.96 seconds
+n=100, m/n=1.7, GSAT Success: 100.0%, Total Flips: 5892, Time: 4.13 seconds
+n=100, m/n=1.8, GSAT Success: 100.0%, Total Flips: 9363, Time: 5.97 seconds
+n=100, m/n=1.9, GSAT Success: 100.0%, Total Flips: 11126, Time: 6.60 seconds
+n=100, m/n=2.0, GSAT Success: 100.0%, Total Flips: 16769, Time: 9.25 seconds
+n=100, m/n=2.1, GSAT Success: 100.0%, Total Flips: 18901, Time: 10.22 seconds
+n=100, m/n=2.2, GSAT Success: 95.0%, Total Flips: 37730, Time: 15.42 seconds
+n=100, m/n=2.3, GSAT Success: 92.0%, Total Flips: 46843, Time: 17.80 seconds
+n=100, m/n=2.4, GSAT Success: 83.0%, Total Flips: 72516, Time: 24.09 seconds
+n=100, m/n=2.5, GSAT Success: 74.0%, Total Flips: 100335, Time: 30.80 seconds
+n=100, m/n=2.6, GSAT Success: 64.0%, Total Flips: 120599, Time: 35.63 seconds
+n=100, m/n=2.7, GSAT Success: 54.0%, Total Flips: 146603, Time: 46.44 seconds
+n=100, m/n=2.8, GSAT Success: 36.0%, Total Flips: 184239, Time: 53.29 seconds
+n=100, m/n=2.9, GSAT Success: 23.0%, Total Flips: 206521, Time: 59.09 seconds
+n=250, m/n=1.0, GSAT Success: 100.0%, Total Flips: 5028, Time: 4.70 seconds
+n=250, m/n=1.1, GSAT Success: 100.0%, Total Flips: 7720, Time: 6.62 seconds
+n=250, m/n=1.2, GSAT Success: 100.0%, Total Flips: 10163, Time: 8.63 seconds
+n=250, m/n=1.3, GSAT Success: 100.0%, Total Flips: 15557, Time: 11.70 seconds
+n=250, m/n=1.4, GSAT Success: 100.0%, Total Flips: 20074, Time: 18.51 seconds
+n=250, m/n=1.5, GSAT Success: 98.0%, Total Flips: 41625, Time: 35.33 seconds
+n=250, m/n=1.6, GSAT Success: 95.0%, Total Flips: 62613, Time: 51.52 seconds
+n=250, m/n=1.7, GSAT Success: 87.0%, Total Flips: 95651, Time: 77.79 seconds
+n=250, m/n=1.8, GSAT Success: 57.0%, Total Flips: 159258, Time: 129.32 seconds
+n=250, m/n=1.9, GSAT Success: 44.0%, Total Flips: 180572, Time: 149.26 seconds
+n=250, m/n=2.0, GSAT Success: 19.0%, Total Flips: 221926, Time: 187.42 seconds
+n=250, m/n=2.1, GSAT Success: 5.0%, Total Flips: 243330, Time: 212.90 seconds
+n=250, m/n=2.2, GSAT Success: 1.0%, Total Flips: 248282, Time: 224.19 seconds
+n=250, m/n=2.3, GSAT Success: 0.0%, Total Flips: 250000, Time: 234.77 seconds
+n=250, m/n=2.4, GSAT Success: 0.0%, Total Flips: 250000, Time: 234.63 seconds
+n=250, m/n=2.5, GSAT Success: 0.0%, Total Flips: 250000, Time: 240.48 seconds
+n=250, m/n=2.6, GSAT Success: 0.0%, Total Flips: 250000
+n=250, m/n=2.7, GSAT Success: 0.0%, Total Flips: 250000
+n=250, m/n=2.8, GSAT Success: 0.0%, Total Flips: 250000
+n=250, m/n=2.9, GSAT Success: 0.0%, Total Flips: 250000
+n=500, m/n=1.0, GSAT Success: 0.0%, Total Flips: 250000
+n=500, m/n=1.1, GSAT Success: 0.0%, Total Flips: 250000
+n=500, m/n=1.2, GSAT Success: 0.0%, Total Flips: 250000
+n=500, m/n=1.3, GSAT Success: 0.0%, Total Flips: 250000
+n=500, m/n=1.4, GSAT Success: 0.0%, Total Flips: 250000
+n=500, m/n=1.5, GSAT Success: 0.0%, Total Flips: 250000
+n=500, m/n=1.6, GSAT Success: 0.0%, Total Flips: 250000
+n=500, m/n=1.7, GSAT Success: 0.0%, Total Flips: 250000
+n=500, m/n=1.8, GSAT Success: 0.0%, Total Flips: 250000, Time: 671.70 seconds
+n=500, m/n=1.9, GSAT Success: 0.0%, Total Flips: 250000, Time: 708.89 seconds
+n=500, m/n=2.0, GSAT Success: 0.0%, Total Flips: 250000, Time: 737.64 seconds
+n=500, m/n=2.1, GSAT Success: 0.0%, Total Flips: 250000, Time: 772.88 seconds
+n=500, m/n=2.2, GSAT Success: 0.0%, Total Flips: 250000, Time: 815.21 seconds
+n=500, m/n=2.3, GSAT Success: 0.0%, Total Flips: 250000, Time: 844.50 seconds
+n=500, m/n=2.4, GSAT Success: 0.0%, Total Flips: 250000, Time: 870.46 seconds
+n=500, m/n=2.5, GSAT Success: 0.0%, Total Flips: 250000, Time: 907.13 seconds
+n=500, m/n=2.6, GSAT Success: 0.0%, Total Flips: 250000, Time: 950.29 seconds
+n=500, m/n=2.7, GSAT Success: 0.0%, Total Flips: 250000, Time: 980.54 seconds
+n=500, m/n=2.8, GSAT Success: 0.0%, Total Flips: 250000, Time: 1190.23 seconds
+n=500, m/n=2.9, GSAT Success: 0.0%, Total Flips: 250000, Time: 1228.61 seconds
+n=1000, m/n=1.0, GSAT Success: 0.0%, Total Flips: 250000, Time: 1316.87 seconds
+n=1000, m/n=1.1, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=1.2, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=1.3, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=1.4, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=1.5, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=1.6, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=1.7, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=1.8, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=1.9, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=2.0, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=2.1, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=2.2, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=2.3, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=2.4, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=2.5, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=2.6, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=2.7, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=2.8, GSAT Success: 0.0%, Total Flips: 250000
+n=1000, m/n=2.9, GSAT Success: 0.0%, Total Flips: 250000

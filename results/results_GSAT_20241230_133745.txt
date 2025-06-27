@@ -1,8 +1,0 @@
-n=500, m/n=4.8, GSAT Success: 26.0%, Total Flips: 189265, Time: 159.10 seconds
-n=500, m/n=4.898, GSAT Success: 16.0%, Total Flips: 212372, Time: 175.26 seconds
-n=500, m/n=4.998, GSAT Success: 18.0%, Total Flips: 207403, Time: 175.64 seconds
-n=500, m/n=5.098, GSAT Success: 14.000000000000002%, Total Flips: 217063, Time: 184.22 seconds
-n=500, m/n=5.198, GSAT Success: 12.0%, Total Flips: 222174, Time: 193.86 seconds
-n=500, m/n=5.298, GSAT Success: 15.0%, Total Flips: 214995, Time: 191.37 seconds
-n=500, m/n=5.398, GSAT Success: 10.0%, Total Flips: 226936, Time: 199.36 seconds
-n=500, m/n=5.498, GSAT Success: 17.0%, Total Flips: 209545, Time: 192.99 seconds

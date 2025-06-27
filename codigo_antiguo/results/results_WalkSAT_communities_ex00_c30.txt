@@ -1,0 +1,1 @@
+p=0, n=500, m/n=3.5, WalkSAT Success: 0.0%, Total Flips: 500000, Time: 95.38 seconds

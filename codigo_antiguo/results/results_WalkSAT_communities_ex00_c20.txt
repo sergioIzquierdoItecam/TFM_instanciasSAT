@@ -1,0 +1,2 @@
+c=20, Q=0.8, p=0.5, n=500, m/n=2.5, WalkSAT Success: 100.0%, Total Flips: 24056, Time: 7.92 seconds
+c=20, Q=0.8, p=0.5, n=500, m/n=2.6, WalkSAT Success: 100.0%, Total Flips: 29545, Time: 8.72 seconds

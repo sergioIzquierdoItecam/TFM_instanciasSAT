@@ -1,6 +1,0 @@
-n=1000, m/n=4.9, GSAT Success: 3.0%, Total Flips: 242915, Time: 387.82 seconds
-n=1000, m/n=5.0, GSAT Success: 3.0%, Total Flips: 243073, Time: 423.32 seconds
-n=1000, m/n=5.1, GSAT Success: 3.0%, Total Flips: 243138, Time: 459.24 seconds
-n=1000, m/n=5.199, GSAT Success: 3.0%, Total Flips: 243080, Time: 436.96 seconds
-n=1000, m/n=5.299, GSAT Success: 2.0%, Total Flips: 245210, Time: 441.33 seconds
-n=1000, m/n=5.399, GSAT Success: 1.0%, Total Flips: 247725, Time: 452.53 seconds

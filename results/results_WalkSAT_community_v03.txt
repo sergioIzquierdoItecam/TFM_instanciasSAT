@@ -1,0 +1,20 @@
+Experimento: WalkSAT_community_v03
+Fecha de inicio: 2025-06-27 21:58:38
+================================================================================
+
+c=10, Q=0.2, p=0.5, n=50, m/n=2.5, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 2396, Time: 6.29 seconds
+c=10, Q=0.2, p=0.5, n=50, m/n=2.6, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 2966, Time: 6.40 seconds
+c=10, Q=0.2, p=0.5, n=50, m/n=2.7, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 3016, Time: 6.02 seconds
+c=10, Q=0.2, p=0.5, n=50, m/n=2.8, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 4461, Time: 6.25 seconds
+c=10, Q=0.2, p=0.5, n=50, m/n=2.9, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 4836, Time: 6.16 seconds
+c=10, Q=0.2, p=0.5, n=50, m/n=3.0, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 6064, Time: 6.43 seconds
+c=10, Q=0.2, p=0.5, n=50, m/n=3.1, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 7846, Time: 6.96 seconds
+c=10, Q=0.2, p=0.5, n=50, m/n=3.2, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 8094, Time: 7.11 seconds
+c=10, Q=0.2, p=0.5, n=50, m/n=3.3, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 8288, Time: 7.01 seconds
+c=10, Q=0.2, p=0.5, n=50, m/n=3.4, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 10165, Time: 7.08 seconds
+c=10, Q=0.2, p=0.5, n=50, m/n=3.5, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 13456, Time: 8.40 seconds
+c=10, Q=0.2, p=0.5, n=50, m/n=3.6, max_tries=3, max_flips=500, Success Rate: 96.0%, Total Flips: 19267, Time: 9.74 seconds
+c=10, Q=0.2, p=0.5, n=50, m/n=3.7, max_tries=3, max_flips=500, Success Rate: 93.0%, Total Flips: 26540, Time: 10.80 seconds
+c=10, Q=0.2, p=0.5, n=50, m/n=3.8, max_tries=3, max_flips=500, Success Rate: 94.0%, Total Flips: 27436, Time: 10.84 seconds
+c=10, Q=0.2, p=0.5, n=50, m/n=3.9, max_tries=3, max_flips=500, Success Rate: 85.0%, Total Flips: 42025, Time: 13.45 seconds
+c=10, Q=0.2, p=0.5, n=50, m/n=4.0, max_tries=3, max_flips=500, Success Rate: 76.0%, Total Flips: 54233, Time: 16.76 seconds

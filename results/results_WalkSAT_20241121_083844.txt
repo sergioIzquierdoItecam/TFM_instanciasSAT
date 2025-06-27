@@ -1,3 +1,0 @@
-n=1500, m/n=3.5, Total Flips: 1204, Time: 50.95 seconds
-n=1500, m/n=3.6, Total Flips: 11756, Time: 61.80 seconds
-n=1500, m/n=3.7, Total Flips: 68298, Time: 99.44 seconds

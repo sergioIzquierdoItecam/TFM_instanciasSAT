@@ -26,12 +26,26 @@ def main():
         #     "num_seeds": 100,
         #     "algorithm_type": "WalkSAT_community" # GSAT, WalkSAT_community, WalkSAT_random
         # },
+        # {
+        #     "base_name": "WalkSAT_community_v02_prueba",
+        #     "n": [1000],
+        #     "p": [0.5],
+        #     "c": [20],
+        #     "Q": [0.8],
+        #     "k": 3,
+        #     "max_tries_values": [3],
+        #     "max_flips_coef_values": [10],  # Usar coeficientes
+        #     "max_flips_values": None,  # No usar valores fijos
+        #     "m_n_ratios": np.arange(2.5, 4.5, 0.1),
+        #     "num_seeds": 100,
+        #     "algorithm_type": "WalkSAT_community" # GSAT, WalkSAT_community, WalkSAT_random
+        # }
         {
-            "base_name": "WalkSAT_community_v03",
-            "n": [50,100,250,500,1000],
+            "base_name": "WalkSAT_community_vXX",
+            "n": [500],
             "p": [0.5],
-            "c": [10,20,30],
-            "Q": [0.2,0.5,0.8],
+            "c": [20],
+            "Q": [0.8],
             "k": 3,
             "max_tries_values": [3],
             "max_flips_coef_values": [10],  # Usar coeficientes

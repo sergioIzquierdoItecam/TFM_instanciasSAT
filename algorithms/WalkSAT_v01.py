@@ -145,7 +145,7 @@ class WalkSAT:
         
         for tries in range(max_tries):
             # Randomly assign True/False to each variable
-            random.seed(0)
+            # random.seed(2)
             assignment = {variable + 1: random.choice([True, False]) for variable in range(self.variables)}
             variable_clauses, score_clauses, clause_assignment = self.get_variable_clauses(assignment) 
             file_assignment = "random_assignment.txt"
@@ -161,6 +161,8 @@ class WalkSAT:
                 return True, tries+1, 1
 
             for flips in range(max_flips): 
+                # if flips == 200 or flips == 300 or flips == 400:
+                #     print(f"Flips: {flips}, Tries: {tries}, Satisfied Clauses: {satisfied_total}")
 
                 # Choose one of the unsatisfied clauses with one only community
                 clauses_unsatisfied = [key for key, value in score_clauses.items() if value==0]

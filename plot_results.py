@@ -302,7 +302,7 @@ def generate_custom_grid(results_df, experiment_name, plot_file,
                 print(f"Advertencia: El parámetro '{param}' no existe en los datos.")
                 return
         else:
-            param_values[param] = [1,10,20]
+            param_values[param] = [1,10,20,50]
     
     # Determinar dimensiones de la cuadrícula
     if len(vary_params) == 1:
@@ -382,20 +382,27 @@ def generate_custom_grid(results_df, experiment_name, plot_file,
 def analyze_results(filename):
     """Función principal para analizar los resultados"""
     df = parse_results_file(filename)
-        
+      
     # Ejemplo con tabla comparativa
+    # Construir nombres de archivos de salida a partir del nombre de entrada
+    base_name = filename
+    if base_name.lower().endswith('.txt'):
+        base_name = base_name[:-4]
+    plot_file = base_name.replace('results/', 'results\\plots\\') + '.png'
+    metrics_output_file = base_name.replace('results/', 'results\\metrics\\') + '.txt'
+
     generate_custom_grid(
         df,
         experiment_name="Success Rate by Community Size and Randomness",
-        plot_file="results\plots\success_WalkSAT_community_v00_flips&tries.png",
-        # vary_params=['Q', 'c'], #or flips_coef
-        vary_params=['max_tries', 'flips_coef'], #or flips_coef
-        # fixed_params={'p':0.5, 'max_tries':3, 'flips_coef':10},
-        fixed_params={'p':0.5, 'Q':0.8, 'c':10},
-        metrics_output_file="results\metrics\success_WalkSAT_community_v00_flips&tries.txt"
+        plot_file=plot_file,
+        vary_params=['c', 'Q'],  # o flips_coef
+        # vary_params=['max_tries', 'flips_coef'],
+        fixed_params={'p': 0.5, 'max_tries': 3, 'flips_coef': 1},
+        # fixed_params={'p':0.5, 'Q':0.8, 'c':10},
+        metrics_output_file=metrics_output_file
     )
 
 # Ejemplo de uso
 if __name__ == "__main__":
-    filename = r"results/results_WalkSAT_community_v00_flips&tries.txt"
+    filename = r"results/results_WalkSAT_community_v02_1n.txt"
     analyze_results(filename)

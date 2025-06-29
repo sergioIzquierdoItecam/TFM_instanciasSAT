@@ -10,7 +10,12 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from algorithms.WalkSAT import WalkSAT as WalkSAT_random
-from algorithms.WalkSAT_v03 import WalkSAT as WalkSAT_community
+from algorithms.WalkSAT_v00 import WalkSAT as WalkSAT_community_v00
+from algorithms.WalkSAT_v01 import WalkSAT as WalkSAT_community_v01
+from algorithms.WalkSAT_v02 import WalkSAT as WalkSAT_community_v02
+from algorithms.WalkSAT_v03 import WalkSAT as WalkSAT_community_v03
+from algorithms.WalkSAT_v04 import WalkSAT as WalkSAT_community_v04
+from algorithms.WalkSAT_vXX import WalkSAT as WalkSAT_community_vXX
 from algorithms.GSAT import GSAT
 from datetime import datetime
 import re
@@ -25,7 +30,7 @@ MAX_WORKERS = max(1, multiprocessing.cpu_count() - 2)
 CHUNK_SIZE = 10
 MAX_RETRIES = 3  # Intentos máximos por configuración fallida
 
-def run_single_configuration(config_params, num_seeds=100, algorithm_type='WalkSAT_community'):
+def run_single_configuration(config_params, num_seeds=100, algorithm_type='WalkSAT_community', experiment_name='WalkSAT_community'):
     """Ejecuta una configuración con reintentos automáticos"""
     for attempt in range(MAX_RETRIES):
         results = {
@@ -36,8 +41,23 @@ def run_single_configuration(config_params, num_seeds=100, algorithm_type='WalkS
         
         seeds = random.sample(range(1001), num_seeds)
         for seed in seeds:
+            # seed = 2144  # Para pruebas, usar un seed fijo
             if algorithm_type == 'WalkSAT_community':
-                solver = WalkSAT_community(
+                # Seleccionar la versión de WalkSAT_community según el experiment_name
+                if "v00" in experiment_name:
+                    solver_class = WalkSAT_community_v00
+                elif "v01" in experiment_name:
+                    solver_class = WalkSAT_community_v01
+                elif "v02" in experiment_name:
+                    solver_class = WalkSAT_community_v02
+                elif "v03" in experiment_name:
+                    solver_class = WalkSAT_community_v03
+                elif "v04" in experiment_name:
+                    solver_class = WalkSAT_community_v04
+                else:
+                    solver_class = WalkSAT_community_vXX  # Por defecto, v00
+
+                solver = solver_class(
                     variables=config_params['n'],
                     clauses=int(config_params['m_n'] * config_params['n']),
                     clauseLength=config_params['k'],
@@ -335,7 +355,7 @@ def run_experiment_parallel(
 ):
     """Función principal que inicia experimentos si no existen resultados"""
     os.makedirs('results', exist_ok=True)
-    os.makedirs('plots', exist_ok=True)
+    # os.makedirs('plots', exist_ok=True)
     
     results_txt_file = f'results/results_{experiment_name}.txt'
     results_excel_file = f'results/results_{experiment_name}.xlsx'
@@ -383,7 +403,9 @@ def run_experiment_parallel(
                                         # Verificar si la configuración ya existe
                                         if not results_df.empty and config_str in results_df['Configurations'].values:
                                             continue
-                                            
+                                        # Evita errores procedentes del generador de clásulas
+                                        if n == 50 and c in [20,30]:
+                                            continue
                                         all_configs.append({
                                             'config_str': config_str,
                                             'params': {
@@ -447,7 +469,7 @@ def run_experiment_parallel(
                 
                 with ProcessPoolExecutor(max_workers=MAX_WORKERS) as executor:
                     futures = {
-                        executor.submit(run_single_configuration, config['params'], num_seeds, algorithm_type): config
+                        executor.submit(run_single_configuration, config['params'], num_seeds, algorithm_type, experiment_name): config
                         for config in chunk
                     }
                     

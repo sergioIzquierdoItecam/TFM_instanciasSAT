@@ -188,19 +188,23 @@ class WalkSAT:
 
                     if satisfied_total == self.clauses:  # If all clauses are satisfied
                         return True, tries+1, 1   
-                    
 
 
                 for flips in range(max_flips): 
+                    # if flips == 200 or flips == 300 or flips == 400:
+                    #     print(f"Flips: {flips}, Tries: {tries}, Satisfied Clauses: {satisfied_total}")
+
 
                     # Choose one of the unsatisfied clauses with one only community
                     clauses_unsatisfied = [key for key, value in score_clauses.items() if value==0]
-                    clauses_unsatisfied_one_community = [
-                        key for key, value in score_clauses.items() if value == 0 and max(self.clause_community_count[key-1].values()) == 3]
-                    if clauses_unsatisfied_one_community != []:
-                        clause_unsatisfied = random.choice(clauses_unsatisfied_one_community)
-                    else:
-                        clause_unsatisfied = random.choice(clauses_unsatisfied)
+                    # clauses_unsatisfied_one_community = [
+                    #     key for key, value in score_clauses.items() if value == 0 and max(self.clause_community_count[key-1].values()) == 3]
+                    # if clauses_unsatisfied_one_community != []:
+                    #     clause_unsatisfied = random.choice(clauses_unsatisfied_one_community)
+                    # else:
+                    #     clause_unsatisfied = random.choice(clauses_unsatisfied)
+                    clause_unsatisfied = random.choice(clauses_unsatisfied)
+
 
                     freebie_move = False
                     

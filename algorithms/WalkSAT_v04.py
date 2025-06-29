@@ -5,12 +5,14 @@ Created on Wed Mar 20 20:34:02 2024
 @author: Sergio
 """
 
+# Modified 01 WalkSAT solver: clauses with one community 
+
 import subprocess
 import random
 import comprueba_SAT
 import tempfile
-import os
 import shutil
+import os
 
 class WalkSAT:
     # Initialize the WalkSAT solver with the given parameters
@@ -22,7 +24,7 @@ class WalkSAT:
         self.modularity = modularity
         self.communities = communities
         # Generate the initial random SAT formula
-        self.formula, self.variable_to_community, self.clause_community_count = self.generate_random_model()
+        self.formula, self.communities_variables, self.variable_to_community, self.clause_community_count = self.generate_random_model()
     
     # Generates a random SAT model using an external program
     def generate_random_model(self):
@@ -62,12 +64,12 @@ class WalkSAT:
                     community_to_vars[community] = []
                 community_to_vars[community].append(var)
         
-            # # Crear el diccionario final communities_variables
-            # communities_variables = {}
-            # for var_list in community_to_vars.values():
-            #     if len(var_list) > 1:  # Solo considerar comunidades con más de una variable
-            #         for var in var_list:
-            #             communities_variables[var] = [v for v in var_list if v != var]
+            # Crear el diccionario final communities_variables
+            communities_variables = {}
+            for var_list in community_to_vars.values():
+                if len(var_list) > 1:  # Solo considerar comunidades con más de una variable
+                    for var in var_list:
+                        communities_variables[var] = [v for v in var_list if v != var]
             
             # Crear el diccionario variable_to_community solo con variables en comunidades con más de una variable
             variable_to_community = {var: community for community, vars_list in community_to_vars.items() if len(vars_list) > 1 for var in vars_list}
@@ -90,7 +92,7 @@ class WalkSAT:
                             community_count[community] = 1
                 clause_community_count.append(community_count)
         
-            return formula, variable_to_community, clause_community_count
+            return formula, communities_variables, variable_to_community, clause_community_count
         
         finally:
             # Limpiar los archivos temporales
@@ -143,7 +145,7 @@ class WalkSAT:
         
         for tries in range(max_tries):
             # Randomly assign True/False to each variable
-            # random.seed(2)
+            random.seed(0)
             assignment = {variable + 1: random.choice([True, False]) for variable in range(self.variables)}
             variable_clauses, score_clauses, clause_assignment = self.get_variable_clauses(assignment) 
             file_assignment = "random_assignment.txt"
@@ -159,12 +161,15 @@ class WalkSAT:
                 return True, tries+1, 1
 
             for flips in range(max_flips): 
-                # if flips == 200 or flips == 300 or flips == 400:
-                #     print(f"Flips: {flips}, Tries: {tries}, Satisfied Clauses: {satisfied_total}")
 
-                # Choose one of the unsatisfied clauses
+                # Choose one of the unsatisfied clauses with one only community
                 clauses_unsatisfied = [key for key, value in score_clauses.items() if value==0]
-                clause_unsatisfied = random.choice(clauses_unsatisfied)
+                clauses_unsatisfied_two_community = [
+                    key for key, value in score_clauses.items() if value == 0 and max(self.clause_community_count[key-1].values()) == 2]
+                if clauses_unsatisfied_two_community != []:
+                    clause_unsatisfied = random.choice(clauses_unsatisfied_two_community)
+                else:
+                    clause_unsatisfied = random.choice(clauses_unsatisfied)
                 
                 freebie_move = False
                 
@@ -217,8 +222,7 @@ class WalkSAT:
                             for i in range(len(clause_assignment_auxiliar[variable][clause])):
                                 if clause_assignment_auxiliar[variable][clause][i] == variable or clause_assignment_auxiliar[variable][clause][i] == -variable:
                                     clause_assignment_auxiliar[variable][clause][i] = -clause_assignment_auxiliar[variable][clause][i]
-    
-
+                            
                     if break_count[variable] == 0:
                         variable_flip = variable
                         freebie_move = True

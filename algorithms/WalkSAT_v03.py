@@ -165,6 +165,8 @@ class WalkSAT:
                     # Assuming clause_community_count is a list where index is clause-1
                     # and contains a dict of {community_id: count}
                     communities = self.clause_community_count[clause-1]
+                    if len(communities) > 1:
+                        continue
                     main_community = max(communities.items(), key=lambda x: x[1])[0]
                     community_unsatisfied[main_community] = community_unsatisfied.get(main_community, 0) + 1
                 

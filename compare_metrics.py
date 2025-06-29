@@ -106,16 +106,16 @@ def compare_algorithms(results_dir, output_file=None, weights=None):
         
         # Guardar resultados si se especifica
         if output_file:
-            # CSV
-            csv_file = output_file.replace('.txt', '.csv')
-            comparison_df.to_csv(csv_file, index=False)
-            print(f"\nResultados guardados como CSV: {csv_file}")
+            # # CSV
+            # csv_file = output_file.replace('.txt', '.csv')
+            # comparison_df.to_csv(csv_file, index=False)
+            # print(f"\nResultados guardados como CSV: {csv_file}")
             
-            # LaTeX
-            latex_file = output_file.replace('.txt', '.tex')
-            with open(latex_file, 'w') as f:
-                f.write(comparison_df.to_latex(index=False, float_format=".2f"))
-            print(f"Resultados guardados como LaTeX: {latex_file}")
+            # # LaTeX
+            # latex_file = output_file.replace('.txt', '.tex')
+            # with open(latex_file, 'w') as f:
+            #     f.write(comparison_df.to_latex(index=False, float_format=".2f"))
+            # print(f"Resultados guardados como LaTeX: {latex_file}")
             
             # Markdown
             md_file = output_file.replace('.txt', '.md')
@@ -132,8 +132,8 @@ def compare_algorithms(results_dir, output_file=None, weights=None):
 # Ejemplo de uso
 if __name__ == "__main__":
     # Configuración
-    results_directory = "resultados_comparacion"  # Directorio con los CSV de resultados
-    output_comparison = "comparacion_algoritmos.txt"
+    results_directory = r"results/metrics/csv"  # Directorio con los CSV de resultados
+    output_comparison = results_directory + r"/comparacion_algoritmos.txt"
     
     # Pesos personalizados (opcional)
     custom_weights = {

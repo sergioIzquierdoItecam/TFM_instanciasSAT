@@ -1,0 +1,1367 @@
+Resultados ordenados - 2025-06-29 17:24:15
+================================================================================
+
+#################### n = 50 ####################
+
+#################### c = 10 ####################
+
+#################### Q = 0.2 ####################
+
+#################### Max Flips = 500.0 ####################
+    c=10, Q=0.2, p=0.5, n=50, m/n=2.5, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 2527, Time: 4.05 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=2.6, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 3200, Time: 4.17 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=2.7, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 3117, Time: 4.21 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=2.8, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 3785, Time: 4.30 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=2.9, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 3946, Time: 4.24 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=3.0, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 6274, Time: 4.47 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=3.1, max_tries=3, max_flips=500, Success Rate: 99.0%, Total Flips: 6768, Time: 4.37 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=3.2, max_tries=3, max_flips=500, Success Rate: 96.0%, Total Flips: 12076, Time: 4.64 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=3.3, max_tries=3, max_flips=500, Success Rate: 96.0%, Total Flips: 13066, Time: 4.67 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=3.4, max_tries=3, max_flips=500, Success Rate: 97.0%, Total Flips: 13649, Time: 4.68 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=3.5, max_tries=3, max_flips=500, Success Rate: 95.0%, Total Flips: 18287, Time: 4.80 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=3.6, max_tries=3, max_flips=500, Success Rate: 89.0%, Total Flips: 28707, Time: 5.35 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=3.7, max_tries=3, max_flips=500, Success Rate: 82.0%, Total Flips: 39305, Time: 5.96 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=3.8, max_tries=3, max_flips=500, Success Rate: 73.0%, Total Flips: 51363, Time: 6.73 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=3.9, max_tries=3, max_flips=500, Success Rate: 74.0%, Total Flips: 52692, Time: 6.73 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=4.0, max_tries=3, max_flips=500, Success Rate: 63.0%, Total Flips: 66559, Time: 7.58 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=4.1, max_tries=3, max_flips=500, Success Rate: 52.0%, Total Flips: 81246, Time: 8.37 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=4.2, max_tries=3, max_flips=500, Success Rate: 46.0%, Total Flips: 91007, Time: 9.02 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=4.3, max_tries=3, max_flips=500, Success Rate: 31.0%, Total Flips: 109920, Time: 10.09 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=4.4, max_tries=3, max_flips=500, Success Rate: 19.0%, Total Flips: 125660, Time: 11.46 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=4.5, max_tries=3, max_flips=500, Success Rate: 15.0%, Total Flips: 130903, Time: 12.82 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=4.6, max_tries=3, max_flips=500, Success Rate: 17.0%, Total Flips: 127489, Time: 12.24 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=4.7, max_tries=3, max_flips=500, Success Rate: 15.0%, Total Flips: 131409, Time: 13.17 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=4.8, max_tries=3, max_flips=500, Success Rate: 6.0%, Total Flips: 142204, Time: 14.10 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=4.9, max_tries=3, max_flips=500, Success Rate: 5.0%, Total Flips: 143155, Time: 14.20 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=5.0, max_tries=3, max_flips=500, Success Rate: 1.0%, Total Flips: 148659, Time: 15.05 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=5.1, max_tries=3, max_flips=500, Success Rate: 3.0%, Total Flips: 146211, Time: 14.70 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=5.2, max_tries=3, max_flips=500, Success Rate: 0.0%, Total Flips: 150000, Time: 14.95 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=5.3, max_tries=3, max_flips=500, Success Rate: 0.0%, Total Flips: 150000, Time: 15.54 seconds
+    c=10, Q=0.2, p=0.5, n=50, m/n=5.4, max_tries=3, max_flips=500, Success Rate: 0.0%, Total Flips: 150000, Time: 15.40 seconds
+
+#################### Q = 0.5 ####################
+
+#################### Max Flips = 500.0 ####################
+    c=10, Q=0.5, p=0.5, n=50, m/n=2.5, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 2284, Time: 3.55 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=2.6, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 2712, Time: 3.70 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=2.7, max_tries=3, max_flips=500, Success Rate: 99.0%, Total Flips: 4648, Time: 3.70 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=2.8, max_tries=3, max_flips=500, Success Rate: 100.0%, Total Flips: 3830, Time: 3.67 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=2.9, max_tries=3, max_flips=500, Success Rate: 99.0%, Total Flips: 6720, Time: 3.78 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=3.0, max_tries=3, max_flips=500, Success Rate: 98.0%, Total Flips: 8656, Time: 3.90 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=3.1, max_tries=3, max_flips=500, Success Rate: 97.0%, Total Flips: 9386, Time: 3.97 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=3.2, max_tries=3, max_flips=500, Success Rate: 95.0%, Total Flips: 15122, Time: 4.26 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=3.3, max_tries=3, max_flips=500, Success Rate: 91.0%, Total Flips: 21834, Time: 4.56 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=3.4, max_tries=3, max_flips=500, Success Rate: 92.0%, Total Flips: 21206, Time: 4.53 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=3.5, max_tries=3, max_flips=500, Success Rate: 82.0%, Total Flips: 34770, Time: 6.43 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=3.6, max_tries=3, max_flips=500, Success Rate: 77.0%, Total Flips: 42744, Time: 6.90 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=3.7, max_tries=3, max_flips=500, Success Rate: 71.0%, Total Flips: 51264, Time: 7.57 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=3.8, max_tries=3, max_flips=500, Success Rate: 66.0%, Total Flips: 60344, Time: 7.91 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=3.9, max_tries=3, max_flips=500, Success Rate: 60.0%, Total Flips: 69684, Time: 8.28 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=4.0, max_tries=3, max_flips=500, Success Rate: 54.0%, Total Flips: 77285, Time: 8.60 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=4.1, max_tries=3, max_flips=500, Success Rate: 42.0%, Total Flips: 93821, Time: 9.86 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=4.2, max_tries=3, max_flips=500, Success Rate: 36.0%, Total Flips: 101770, Time: 9.85 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=4.3, max_tries=3, max_flips=500, Success Rate: 35.0%, Total Flips: 102981, Time: 10.31 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=4.4, max_tries=3, max_flips=500, Success Rate: 19.0%, Total Flips: 124847, Time: 11.46 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=4.5, max_tries=3, max_flips=500, Success Rate: 13.0%, Total Flips: 133191, Time: 13.10 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=4.6, max_tries=3, max_flips=500, Success Rate: 14.0%, Total Flips: 131622, Time: 13.16 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=4.7, max_tries=3, max_flips=500, Success Rate: 9.0%, Total Flips: 138386, Time: 13.74 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=4.8, max_tries=3, max_flips=500, Success Rate: 7.0%, Total Flips: 141258, Time: 14.24 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=4.9, max_tries=3, max_flips=500, Success Rate: 7.0%, Total Flips: 140726, Time: 14.14 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=5.0, max_tries=3, max_flips=500, Success Rate: 4.0%, Total Flips: 144753, Time: 14.36 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=5.1, max_tries=3, max_flips=500, Success Rate: 4.0%, Total Flips: 144717, Time: 14.89 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=5.2, max_tries=3, max_flips=500, Success Rate: 4.0%, Total Flips: 144501, Time: 15.14 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=5.3, max_tries=3, max_flips=500, Success Rate: 1.0%, Total Flips: 148562, Time: 15.37 seconds
+    c=10, Q=0.5, p=0.5, n=50, m/n=5.4, max_tries=3, max_flips=500, Success Rate: 2.0%, Total Flips: 147575, Time: 15.60 seconds
+
+#################### Q = 0.8 ####################
+
+#################### Max Flips = 500.0 ####################
+    c=10, Q=0.8, p=0.5, n=50, m/n=2.5, max_tries=3, max_flips=500, Success Rate: 89.0%, Total Flips: 18493, Time: 4.35 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=2.6, max_tries=3, max_flips=500, Success Rate: 94.0%, Total Flips: 11391, Time: 4.02 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=2.7, max_tries=3, max_flips=500, Success Rate: 90.0%, Total Flips: 17708, Time: 4.35 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=2.8, max_tries=3, max_flips=500, Success Rate: 95.0%, Total Flips: 10739, Time: 4.01 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=2.9, max_tries=3, max_flips=500, Success Rate: 85.0%, Total Flips: 25185, Time: 4.69 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=3.0, max_tries=3, max_flips=500, Success Rate: 76.0%, Total Flips: 39046, Time: 5.29 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=3.1, max_tries=3, max_flips=500, Success Rate: 69.0%, Total Flips: 49227, Time: 5.90 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=3.2, max_tries=3, max_flips=500, Success Rate: 74.0%, Total Flips: 42830, Time: 5.56 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=3.3, max_tries=3, max_flips=500, Success Rate: 68.0%, Total Flips: 53061, Time: 6.16 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=3.4, max_tries=3, max_flips=500, Success Rate: 55.0%, Total Flips: 71688, Time: 7.20 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=3.5, max_tries=3, max_flips=500, Success Rate: 54.0%, Total Flips: 72145, Time: 7.96 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=3.6, max_tries=3, max_flips=500, Success Rate: 45.0%, Total Flips: 85142, Time: 8.80 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=3.7, max_tries=3, max_flips=500, Success Rate: 37.0%, Total Flips: 97204, Time: 9.49 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=3.8, max_tries=3, max_flips=500, Success Rate: 30.0%, Total Flips: 107280, Time: 10.26 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=3.9, max_tries=3, max_flips=500, Success Rate: 30.0%, Total Flips: 107276, Time: 10.30 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=4.0, max_tries=3, max_flips=500, Success Rate: 18.0%, Total Flips: 124496, Time: 11.24 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=4.1, max_tries=3, max_flips=500, Success Rate: 24.0%, Total Flips: 115975, Time: 11.00 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=4.2, max_tries=3, max_flips=500, Success Rate: 12.0%, Total Flips: 133118, Time: 12.08 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=4.3, max_tries=3, max_flips=500, Success Rate: 13.0%, Total Flips: 131578, Time: 11.94 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=4.4, max_tries=3, max_flips=500, Success Rate: 7.0%, Total Flips: 140072, Time: 12.63 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=4.5, max_tries=3, max_flips=500, Success Rate: 4.0%, Total Flips: 144370, Time: 14.25 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=4.6, max_tries=3, max_flips=500, Success Rate: 6.0%, Total Flips: 141943, Time: 14.18 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=4.7, max_tries=3, max_flips=500, Success Rate: 2.0%, Total Flips: 147064, Time: 14.79 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=4.8, max_tries=3, max_flips=500, Success Rate: 3.0%, Total Flips: 145967, Time: 14.49 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=4.9, max_tries=3, max_flips=500, Success Rate: 2.0%, Total Flips: 147106, Time: 15.02 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=5.0, max_tries=3, max_flips=500, Success Rate: 3.0%, Total Flips: 145867, Time: 15.12 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=5.1, max_tries=3, max_flips=500, Success Rate: 2.0%, Total Flips: 147086, Time: 15.61 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=5.2, max_tries=3, max_flips=500, Success Rate: 1.0%, Total Flips: 148619, Time: 15.36 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=5.3, max_tries=3, max_flips=500, Success Rate: 0.0%, Total Flips: 150000, Time: 15.94 seconds
+    c=10, Q=0.8, p=0.5, n=50, m/n=5.4, max_tries=3, max_flips=500, Success Rate: 0.0%, Total Flips: 150000, Time: 15.94 seconds
+
+#################### n = 100 ####################
+
+#################### c = 10 ####################
+
+#################### Q = 0.2 ####################
+
+#################### Max Flips = 1000.0 ####################
+    c=10, Q=0.2, p=0.5, n=100, m/n=2.5, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 4497, Time: 4.04 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=2.6, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 5132, Time: 4.04 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=2.7, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 7342, Time: 4.12 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=2.8, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 8329, Time: 4.24 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=2.9, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 9124, Time: 4.27 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=3.0, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 9152, Time: 4.31 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=3.1, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 13200, Time: 4.55 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=3.2, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 15487, Time: 4.70 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=3.3, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 20863, Time: 5.08 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=3.4, max_tries=3, max_flips=1000, Success Rate: 95.0%, Total Flips: 36272, Time: 6.55 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=3.5, max_tries=3, max_flips=1000, Success Rate: 94.0%, Total Flips: 43849, Time: 7.41 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=3.6, max_tries=3, max_flips=1000, Success Rate: 81.0%, Total Flips: 82568, Time: 10.74 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=3.7, max_tries=3, max_flips=1000, Success Rate: 73.0%, Total Flips: 102772, Time: 12.20 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=3.8, max_tries=3, max_flips=1000, Success Rate: 64.0%, Total Flips: 130478, Time: 14.43 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=3.9, max_tries=3, max_flips=1000, Success Rate: 57.0%, Total Flips: 155223, Time: 16.30 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=4.0, max_tries=3, max_flips=1000, Success Rate: 48.0%, Total Flips: 179513, Time: 18.11 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=4.1, max_tries=3, max_flips=1000, Success Rate: 30.0%, Total Flips: 226287, Time: 21.74 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=4.2, max_tries=3, max_flips=1000, Success Rate: 18.0%, Total Flips: 255259, Time: 24.46 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=4.3, max_tries=3, max_flips=1000, Success Rate: 14.0%, Total Flips: 266211, Time: 25.23 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=4.4, max_tries=3, max_flips=1000, Success Rate: 5.0%, Total Flips: 288739, Time: 27.77 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=4.5, max_tries=3, max_flips=1000, Success Rate: 5.0%, Total Flips: 287865, Time: 35.57 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=4.6, max_tries=3, max_flips=1000, Success Rate: 2.0%, Total Flips: 295271, Time: 36.96 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=4.7, max_tries=3, max_flips=1000, Success Rate: 1.0%, Total Flips: 297188, Time: 37.57 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=4.8, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 38.71 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=4.9, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 39.46 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=5.0, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 39.70 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=5.1, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 40.18 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=5.2, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 40.82 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=5.3, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 41.43 seconds
+    c=10, Q=0.2, p=0.5, n=100, m/n=5.4, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 42.59 seconds
+
+#################### Q = 0.5 ####################
+
+#################### Max Flips = 1000.0 ####################
+    c=10, Q=0.5, p=0.5, n=100, m/n=2.5, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 5145, Time: 4.05 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=2.6, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 6385, Time: 4.18 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=2.7, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 6755, Time: 4.14 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=2.8, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 8910, Time: 4.39 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=2.9, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 8734, Time: 4.35 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=3.0, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 10288, Time: 4.48 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=3.1, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 13805, Time: 4.76 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=3.2, max_tries=3, max_flips=1000, Success Rate: 98.0%, Total Flips: 24025, Time: 5.35 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=3.3, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 20982, Time: 5.23 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=3.4, max_tries=3, max_flips=1000, Success Rate: 93.0%, Total Flips: 42007, Time: 7.79 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=3.5, max_tries=3, max_flips=1000, Success Rate: 85.0%, Total Flips: 69607, Time: 10.15 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=3.6, max_tries=3, max_flips=1000, Success Rate: 82.0%, Total Flips: 79290, Time: 10.93 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=3.7, max_tries=3, max_flips=1000, Success Rate: 67.0%, Total Flips: 117542, Time: 14.54 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=3.8, max_tries=3, max_flips=1000, Success Rate: 62.0%, Total Flips: 139541, Time: 16.62 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=3.9, max_tries=3, max_flips=1000, Success Rate: 53.0%, Total Flips: 161115, Time: 18.43 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=4.0, max_tries=3, max_flips=1000, Success Rate: 33.0%, Total Flips: 214947, Time: 22.36 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=4.1, max_tries=3, max_flips=1000, Success Rate: 24.0%, Total Flips: 237573, Time: 24.68 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=4.2, max_tries=3, max_flips=1000, Success Rate: 16.0%, Total Flips: 258380, Time: 26.14 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=4.3, max_tries=3, max_flips=1000, Success Rate: 11.0%, Total Flips: 271640, Time: 28.07 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=4.4, max_tries=3, max_flips=1000, Success Rate: 11.0%, Total Flips: 273113, Time: 28.54 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=4.5, max_tries=3, max_flips=1000, Success Rate: 5.0%, Total Flips: 286840, Time: 36.65 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=4.6, max_tries=3, max_flips=1000, Success Rate: 3.0%, Total Flips: 292029, Time: 37.63 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=4.7, max_tries=3, max_flips=1000, Success Rate: 1.0%, Total Flips: 297127, Time: 38.03 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=4.8, max_tries=3, max_flips=1000, Success Rate: 1.0%, Total Flips: 297168, Time: 38.94 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=4.9, max_tries=3, max_flips=1000, Success Rate: 1.0%, Total Flips: 297217, Time: 38.97 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=5.0, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 39.90 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=5.1, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 40.53 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=5.2, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 40.87 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=5.3, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 41.65 seconds
+    c=10, Q=0.5, p=0.5, n=100, m/n=5.4, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 42.11 seconds
+
+#################### Q = 0.8 ####################
+
+#################### Max Flips = 1000.0 ####################
+    c=10, Q=0.8, p=0.5, n=100, m/n=2.5, max_tries=3, max_flips=1000, Success Rate: 97.0%, Total Flips: 13779, Time: 4.53 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=2.6, max_tries=3, max_flips=1000, Success Rate: 98.0%, Total Flips: 10832, Time: 4.41 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=2.7, max_tries=3, max_flips=1000, Success Rate: 99.0%, Total Flips: 10483, Time: 4.31 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=2.8, max_tries=3, max_flips=1000, Success Rate: 93.0%, Total Flips: 28421, Time: 5.59 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=2.9, max_tries=3, max_flips=1000, Success Rate: 95.0%, Total Flips: 24275, Time: 5.43 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=3.0, max_tries=3, max_flips=1000, Success Rate: 87.0%, Total Flips: 48589, Time: 7.00 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=3.1, max_tries=3, max_flips=1000, Success Rate: 88.0%, Total Flips: 47218, Time: 6.92 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=3.2, max_tries=3, max_flips=1000, Success Rate: 87.0%, Total Flips: 52253, Time: 7.30 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=3.3, max_tries=3, max_flips=1000, Success Rate: 73.0%, Total Flips: 93530, Time: 10.17 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=3.4, max_tries=3, max_flips=1000, Success Rate: 72.0%, Total Flips: 97655, Time: 10.49 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=3.5, max_tries=3, max_flips=1000, Success Rate: 71.0%, Total Flips: 99877, Time: 12.64 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=3.6, max_tries=3, max_flips=1000, Success Rate: 45.0%, Total Flips: 176529, Time: 19.30 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=3.7, max_tries=3, max_flips=1000, Success Rate: 46.0%, Total Flips: 175141, Time: 19.44 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=3.8, max_tries=3, max_flips=1000, Success Rate: 35.0%, Total Flips: 206719, Time: 22.45 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=3.9, max_tries=3, max_flips=1000, Success Rate: 25.0%, Total Flips: 233996, Time: 24.82 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=4.0, max_tries=3, max_flips=1000, Success Rate: 16.0%, Total Flips: 257344, Time: 26.48 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=4.1, max_tries=3, max_flips=1000, Success Rate: 15.0%, Total Flips: 260242, Time: 27.49 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=4.2, max_tries=3, max_flips=1000, Success Rate: 12.0%, Total Flips: 268239, Time: 28.11 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=4.3, max_tries=3, max_flips=1000, Success Rate: 8.0%, Total Flips: 277892, Time: 29.30 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=4.4, max_tries=3, max_flips=1000, Success Rate: 4.0%, Total Flips: 289658, Time: 31.13 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=4.5, max_tries=3, max_flips=1000, Success Rate: 2.0%, Total Flips: 294664, Time: 36.14 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=4.6, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 37.73 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=4.7, max_tries=3, max_flips=1000, Success Rate: 2.0%, Total Flips: 294721, Time: 37.48 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=4.8, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 39.02 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=4.9, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 39.75 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=5.0, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 39.60 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=5.1, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 40.47 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=5.2, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 41.03 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=5.3, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 42.07 seconds
+    c=10, Q=0.8, p=0.5, n=100, m/n=5.4, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 41.62 seconds
+
+#################### c = 20 ####################
+
+#################### Q = 0.2 ####################
+
+#################### Max Flips = 1000.0 ####################
+    c=20, Q=0.2, p=0.5, n=100, m/n=2.5, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 4761, Time: 4.02 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=2.6, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 5693, Time: 4.10 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=2.7, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 6677, Time: 4.21 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=2.8, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 7584, Time: 4.26 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=2.9, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 9336, Time: 4.38 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=3.0, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 12549, Time: 4.65 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=3.1, max_tries=3, max_flips=1000, Success Rate: 99.0%, Total Flips: 16857, Time: 4.90 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=3.2, max_tries=3, max_flips=1000, Success Rate: 99.0%, Total Flips: 18365, Time: 5.06 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=3.3, max_tries=3, max_flips=1000, Success Rate: 98.0%, Total Flips: 25877, Time: 5.76 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=3.4, max_tries=3, max_flips=1000, Success Rate: 97.0%, Total Flips: 34731, Time: 7.05 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=3.5, max_tries=3, max_flips=1000, Success Rate: 92.0%, Total Flips: 54221, Time: 8.75 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=3.6, max_tries=3, max_flips=1000, Success Rate: 84.0%, Total Flips: 76268, Time: 10.77 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=3.7, max_tries=3, max_flips=1000, Success Rate: 76.0%, Total Flips: 100576, Time: 13.34 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=3.8, max_tries=3, max_flips=1000, Success Rate: 65.0%, Total Flips: 135132, Time: 16.21 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=3.9, max_tries=3, max_flips=1000, Success Rate: 43.0%, Total Flips: 191023, Time: 20.55 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=4.0, max_tries=3, max_flips=1000, Success Rate: 42.0%, Total Flips: 195554, Time: 21.03 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=4.1, max_tries=3, max_flips=1000, Success Rate: 34.0%, Total Flips: 211885, Time: 22.84 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=4.2, max_tries=3, max_flips=1000, Success Rate: 26.0%, Total Flips: 234118, Time: 24.59 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=4.3, max_tries=3, max_flips=1000, Success Rate: 17.0%, Total Flips: 257373, Time: 26.65 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=4.4, max_tries=3, max_flips=1000, Success Rate: 6.0%, Total Flips: 284628, Time: 29.88 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=4.5, max_tries=3, max_flips=1000, Success Rate: 7.0%, Total Flips: 283077, Time: 34.26 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=4.6, max_tries=3, max_flips=1000, Success Rate: 5.0%, Total Flips: 288308, Time: 35.04 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=4.7, max_tries=3, max_flips=1000, Success Rate: 1.0%, Total Flips: 297365, Time: 36.42 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=4.8, max_tries=3, max_flips=1000, Success Rate: 1.0%, Total Flips: 297493, Time: 36.63 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=4.9, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 37.80 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=5.0, max_tries=3, max_flips=1000, Success Rate: 1.0%, Total Flips: 297476, Time: 38.20 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=5.1, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 39.08 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=5.2, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 38.83 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=5.3, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 40.00 seconds
+    c=20, Q=0.2, p=0.5, n=100, m/n=5.4, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 40.09 seconds
+
+#################### Q = 0.5 ####################
+
+#################### Max Flips = 1000.0 ####################
+    c=20, Q=0.5, p=0.5, n=100, m/n=2.5, max_tries=3, max_flips=1000, Success Rate: 99.0%, Total Flips: 9357, Time: 4.18 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=2.6, max_tries=3, max_flips=1000, Success Rate: 98.0%, Total Flips: 12253, Time: 4.36 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=2.7, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 6601, Time: 4.08 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=2.8, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 7887, Time: 4.15 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=2.9, max_tries=3, max_flips=1000, Success Rate: 98.0%, Total Flips: 16263, Time: 4.68 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=3.0, max_tries=3, max_flips=1000, Success Rate: 97.0%, Total Flips: 19969, Time: 4.81 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=3.1, max_tries=3, max_flips=1000, Success Rate: 93.0%, Total Flips: 32623, Time: 5.63 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=3.2, max_tries=3, max_flips=1000, Success Rate: 94.0%, Total Flips: 33075, Time: 5.62 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=3.3, max_tries=3, max_flips=1000, Success Rate: 87.0%, Total Flips: 55203, Time: 7.28 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=3.4, max_tries=3, max_flips=1000, Success Rate: 87.0%, Total Flips: 58654, Time: 7.45 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=3.5, max_tries=3, max_flips=1000, Success Rate: 79.0%, Total Flips: 87542, Time: 10.85 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=3.6, max_tries=3, max_flips=1000, Success Rate: 74.0%, Total Flips: 98177, Time: 11.94 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=3.7, max_tries=3, max_flips=1000, Success Rate: 61.0%, Total Flips: 136264, Time: 15.16 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=3.8, max_tries=3, max_flips=1000, Success Rate: 48.0%, Total Flips: 174275, Time: 17.97 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=3.9, max_tries=3, max_flips=1000, Success Rate: 49.0%, Total Flips: 170970, Time: 17.87 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=4.0, max_tries=3, max_flips=1000, Success Rate: 33.0%, Total Flips: 214194, Time: 20.92 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=4.1, max_tries=3, max_flips=1000, Success Rate: 22.0%, Total Flips: 244389, Time: 23.37 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=4.2, max_tries=3, max_flips=1000, Success Rate: 15.0%, Total Flips: 261980, Time: 24.98 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=4.3, max_tries=3, max_flips=1000, Success Rate: 10.0%, Total Flips: 273769, Time: 26.59 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=4.4, max_tries=3, max_flips=1000, Success Rate: 6.0%, Total Flips: 285319, Time: 28.08 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=4.5, max_tries=3, max_flips=1000, Success Rate: 2.0%, Total Flips: 294922, Time: 34.02 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=4.6, max_tries=3, max_flips=1000, Success Rate: 2.0%, Total Flips: 294906, Time: 33.72 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=4.7, max_tries=3, max_flips=1000, Success Rate: 2.0%, Total Flips: 295266, Time: 34.51 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=4.8, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 35.85 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=4.9, max_tries=3, max_flips=1000, Success Rate: 1.0%, Total Flips: 297717, Time: 35.85 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=5.0, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 36.62 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=5.1, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 37.19 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=5.2, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 37.07 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=5.3, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 38.03 seconds
+    c=20, Q=0.5, p=0.5, n=100, m/n=5.4, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 38.65 seconds
+
+#################### Q = 0.8 ####################
+
+#################### Max Flips = 1000.0 ####################
+    c=20, Q=0.8, p=0.5, n=100, m/n=2.5, max_tries=3, max_flips=1000, Success Rate: 92.0%, Total Flips: 28313, Time: 5.29 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=2.6, max_tries=3, max_flips=1000, Success Rate: 85.0%, Total Flips: 50038, Time: 6.67 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=2.7, max_tries=3, max_flips=1000, Success Rate: 88.0%, Total Flips: 41255, Time: 6.40 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=2.8, max_tries=3, max_flips=1000, Success Rate: 84.0%, Total Flips: 54590, Time: 7.00 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=2.9, max_tries=3, max_flips=1000, Success Rate: 85.0%, Total Flips: 53089, Time: 7.15 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=3.0, max_tries=3, max_flips=1000, Success Rate: 65.0%, Total Flips: 113872, Time: 10.40 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=3.1, max_tries=3, max_flips=1000, Success Rate: 65.0%, Total Flips: 112163, Time: 10.42 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=3.2, max_tries=3, max_flips=1000, Success Rate: 61.0%, Total Flips: 123689, Time: 11.47 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=3.3, max_tries=3, max_flips=1000, Success Rate: 59.0%, Total Flips: 132643, Time: 11.90 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=3.4, max_tries=3, max_flips=1000, Success Rate: 40.0%, Total Flips: 187983, Time: 16.53 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=3.5, max_tries=3, max_flips=1000, Success Rate: 33.0%, Total Flips: 206071, Time: 20.67 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=3.6, max_tries=3, max_flips=1000, Success Rate: 28.0%, Total Flips: 222007, Time: 22.86 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=3.7, max_tries=3, max_flips=1000, Success Rate: 20.0%, Total Flips: 244622, Time: 24.24 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=3.8, max_tries=3, max_flips=1000, Success Rate: 13.0%, Total Flips: 263977, Time: 26.47 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=3.9, max_tries=3, max_flips=1000, Success Rate: 12.0%, Total Flips: 266033, Time: 27.19 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=4.0, max_tries=3, max_flips=1000, Success Rate: 11.0%, Total Flips: 269891, Time: 27.53 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=4.1, max_tries=3, max_flips=1000, Success Rate: 5.0%, Total Flips: 286505, Time: 29.71 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=4.2, max_tries=3, max_flips=1000, Success Rate: 4.0%, Total Flips: 289069, Time: 29.95 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=4.3, max_tries=3, max_flips=1000, Success Rate: 3.0%, Total Flips: 292023, Time: 30.43 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=4.4, max_tries=3, max_flips=1000, Success Rate: 2.0%, Total Flips: 294471, Time: 31.42 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=4.5, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 34.72 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=4.6, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 37.57 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=4.7, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 35.40 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=4.8, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 36.42 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=4.9, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 37.67 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=5.0, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 37.88 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=5.1, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 38.66 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=5.2, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 38.67 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=5.3, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 38.89 seconds
+    c=20, Q=0.8, p=0.5, n=100, m/n=5.4, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 39.49 seconds
+
+#################### c = 30 ####################
+
+#################### Q = 0.2 ####################
+
+#################### Max Flips = 1000.0 ####################
+    c=30, Q=0.2, p=0.5, n=100, m/n=2.5, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 5941, Time: 4.18 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=2.6, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 5839, Time: 4.03 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=2.7, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 7644, Time: 4.18 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=2.8, max_tries=3, max_flips=1000, Success Rate: 99.0%, Total Flips: 11743, Time: 4.43 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=2.9, max_tries=3, max_flips=1000, Success Rate: 100.0%, Total Flips: 12378, Time: 4.49 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=3.0, max_tries=3, max_flips=1000, Success Rate: 99.0%, Total Flips: 16007, Time: 4.77 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=3.1, max_tries=3, max_flips=1000, Success Rate: 99.0%, Total Flips: 20325, Time: 4.99 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=3.2, max_tries=3, max_flips=1000, Success Rate: 98.0%, Total Flips: 23384, Time: 5.18 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=3.3, max_tries=3, max_flips=1000, Success Rate: 98.0%, Total Flips: 29032, Time: 5.57 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=3.4, max_tries=3, max_flips=1000, Success Rate: 91.0%, Total Flips: 51214, Time: 7.70 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=3.5, max_tries=3, max_flips=1000, Success Rate: 85.0%, Total Flips: 71006, Time: 9.57 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=3.6, max_tries=3, max_flips=1000, Success Rate: 79.0%, Total Flips: 89168, Time: 11.26 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=3.7, max_tries=3, max_flips=1000, Success Rate: 74.0%, Total Flips: 107829, Time: 12.70 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=3.8, max_tries=3, max_flips=1000, Success Rate: 56.0%, Total Flips: 154305, Time: 16.37 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=3.9, max_tries=3, max_flips=1000, Success Rate: 46.0%, Total Flips: 184341, Time: 18.55 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=4.0, max_tries=3, max_flips=1000, Success Rate: 31.0%, Total Flips: 218918, Time: 21.02 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=4.1, max_tries=3, max_flips=1000, Success Rate: 30.0%, Total Flips: 224866, Time: 21.60 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=4.2, max_tries=3, max_flips=1000, Success Rate: 15.0%, Total Flips: 263839, Time: 25.09 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=4.3, max_tries=3, max_flips=1000, Success Rate: 17.0%, Total Flips: 255798, Time: 25.15 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=4.4, max_tries=3, max_flips=1000, Success Rate: 9.0%, Total Flips: 276888, Time: 26.88 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=4.5, max_tries=3, max_flips=1000, Success Rate: 6.0%, Total Flips: 285005, Time: 33.79 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=4.6, max_tries=3, max_flips=1000, Success Rate: 1.0%, Total Flips: 297699, Time: 36.47 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=4.7, max_tries=3, max_flips=1000, Success Rate: 1.0%, Total Flips: 297752, Time: 36.56 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=4.8, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 38.09 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=4.9, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 38.75 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=5.0, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 38.75 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=5.1, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 39.93 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=5.2, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 40.09 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=5.3, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 40.41 seconds
+    c=30, Q=0.2, p=0.5, n=100, m/n=5.4, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 41.60 seconds
+
+#################### Q = 0.5 ####################
+
+#################### Max Flips = 1000.0 ####################
+    c=30, Q=0.5, p=0.5, n=100, m/n=2.5, max_tries=3, max_flips=1000, Success Rate: 97.0%, Total Flips: 14800, Time: 4.78 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=2.6, max_tries=3, max_flips=1000, Success Rate: 96.0%, Total Flips: 18016, Time: 4.86 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=2.7, max_tries=3, max_flips=1000, Success Rate: 97.0%, Total Flips: 17159, Time: 4.95 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=2.8, max_tries=3, max_flips=1000, Success Rate: 91.0%, Total Flips: 35397, Time: 6.44 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=2.9, max_tries=3, max_flips=1000, Success Rate: 97.0%, Total Flips: 20250, Time: 5.23 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=3.0, max_tries=3, max_flips=1000, Success Rate: 95.0%, Total Flips: 25204, Time: 5.63 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=3.1, max_tries=3, max_flips=1000, Success Rate: 91.0%, Total Flips: 41569, Time: 6.84 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=3.2, max_tries=3, max_flips=1000, Success Rate: 80.0%, Total Flips: 77583, Time: 9.17 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=3.3, max_tries=3, max_flips=1000, Success Rate: 83.0%, Total Flips: 67197, Time: 8.80 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=3.4, max_tries=3, max_flips=1000, Success Rate: 69.0%, Total Flips: 108230, Time: 12.06 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=3.5, max_tries=3, max_flips=1000, Success Rate: 73.0%, Total Flips: 99142, Time: 12.97 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=3.6, max_tries=3, max_flips=1000, Success Rate: 58.0%, Total Flips: 143295, Time: 16.79 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=3.7, max_tries=3, max_flips=1000, Success Rate: 51.0%, Total Flips: 162677, Time: 18.77 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=3.8, max_tries=3, max_flips=1000, Success Rate: 40.0%, Total Flips: 196287, Time: 21.94 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=3.9, max_tries=3, max_flips=1000, Success Rate: 25.0%, Total Flips: 234503, Time: 25.25 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=4.0, max_tries=3, max_flips=1000, Success Rate: 23.0%, Total Flips: 240360, Time: 26.07 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=4.1, max_tries=3, max_flips=1000, Success Rate: 16.0%, Total Flips: 259430, Time: 27.93 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=4.2, max_tries=3, max_flips=1000, Success Rate: 9.0%, Total Flips: 276039, Time: 29.76 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=4.3, max_tries=3, max_flips=1000, Success Rate: 1.0%, Total Flips: 297276, Time: 31.42 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=4.4, max_tries=3, max_flips=1000, Success Rate: 5.0%, Total Flips: 286072, Time: 31.23 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=4.5, max_tries=3, max_flips=1000, Success Rate: 1.0%, Total Flips: 297162, Time: 36.71 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=4.6, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 36.89 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=4.7, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 38.90 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=4.8, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 38.78 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=4.9, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 39.84 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=5.0, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 40.05 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=5.1, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 40.29 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=5.2, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 41.06 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=5.3, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 41.81 seconds
+    c=30, Q=0.5, p=0.5, n=100, m/n=5.4, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 42.14 seconds
+
+#################### Q = 0.8 ####################
+
+#################### Max Flips = 1000.0 ####################
+    c=30, Q=0.8, p=0.5, n=100, m/n=2.5, max_tries=3, max_flips=1000, Success Rate: 72.0%, Total Flips: 87157, Time: 10.21 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=2.6, max_tries=3, max_flips=1000, Success Rate: 69.0%, Total Flips: 96637, Time: 10.87 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=2.7, max_tries=3, max_flips=1000, Success Rate: 56.0%, Total Flips: 135467, Time: 14.19 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=2.8, max_tries=3, max_flips=1000, Success Rate: 55.0%, Total Flips: 138430, Time: 14.21 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=2.9, max_tries=3, max_flips=1000, Success Rate: 53.0%, Total Flips: 145338, Time: 14.77 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=3.0, max_tries=3, max_flips=1000, Success Rate: 37.0%, Total Flips: 192056, Time: 18.12 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=3.1, max_tries=3, max_flips=1000, Success Rate: 37.0%, Total Flips: 191920, Time: 18.23 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=3.2, max_tries=3, max_flips=1000, Success Rate: 30.0%, Total Flips: 212990, Time: 19.64 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=3.3, max_tries=3, max_flips=1000, Success Rate: 23.0%, Total Flips: 233367, Time: 22.12 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=3.4, max_tries=3, max_flips=1000, Success Rate: 28.0%, Total Flips: 219166, Time: 20.77 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=3.5, max_tries=3, max_flips=1000, Success Rate: 10.0%, Total Flips: 271123, Time: 30.32 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=3.6, max_tries=3, max_flips=1000, Success Rate: 12.0%, Total Flips: 266027, Time: 29.53 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=3.7, max_tries=3, max_flips=1000, Success Rate: 11.0%, Total Flips: 268473, Time: 31.16 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=3.8, max_tries=3, max_flips=1000, Success Rate: 7.0%, Total Flips: 280109, Time: 32.23 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=3.9, max_tries=3, max_flips=1000, Success Rate: 3.0%, Total Flips: 291307, Time: 33.75 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=4.0, max_tries=3, max_flips=1000, Success Rate: 3.0%, Total Flips: 291528, Time: 34.20 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=4.1, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 35.05 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=4.2, max_tries=3, max_flips=1000, Success Rate: 1.0%, Total Flips: 297235, Time: 35.72 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=4.3, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 35.65 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=4.4, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 36.97 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=4.5, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=4.6, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=4.7, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=4.8, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=4.9, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=5.0, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=5.1, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=5.2, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=5.3, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=100, m/n=5.4, max_tries=3, max_flips=1000, Success Rate: 0.0%, Total Flips: 300000, Time: 0.00 seconds
+
+#################### n = 250 ####################
+
+#################### c = 10 ####################
+
+#################### Q = 0.2 ####################
+
+#################### Max Flips = 2500.0 ####################
+    c=10, Q=0.2, p=0.5, n=250, m/n=2.5, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 12631, Time: 5.94 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=2.6, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 14294, Time: 6.25 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=2.7, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 16717, Time: 6.42 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=2.8, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 20827, Time: 7.15 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=2.9, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 24002, Time: 7.58 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=3.0, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 29694, Time: 8.33 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=3.1, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 35254, Time: 9.04 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=3.2, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 42276, Time: 10.05 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=3.3, max_tries=3, max_flips=2500, Success Rate: 98.0%, Total Flips: 67479, Time: 13.31 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=3.4, max_tries=3, max_flips=2500, Success Rate: 96.0%, Total Flips: 101353, Time: 18.32 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=3.5, max_tries=3, max_flips=2500, Success Rate: 98.0%, Total Flips: 101121, Time: 21.10 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=3.6, max_tries=3, max_flips=2500, Success Rate: 82.0%, Total Flips: 217078, Time: 38.05 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=3.7, max_tries=3, max_flips=2500, Success Rate: 63.0%, Total Flips: 354379, Time: 58.81 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=3.8, max_tries=3, max_flips=2500, Success Rate: 43.0%, Total Flips: 491150, Time: 78.23 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=3.9, max_tries=3, max_flips=2500, Success Rate: 21.0%, Total Flips: 627309, Time: 96.42 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=4.0, max_tries=3, max_flips=2500, Success Rate: 17.0%, Total Flips: 645765, Time: 101.11 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=4.1, max_tries=3, max_flips=2500, Success Rate: 8.0%, Total Flips: 698323, Time: 108.79 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=4.2, max_tries=3, max_flips=2500, Success Rate: 5.0%, Total Flips: 720671, Time: 113.13 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=4.3, max_tries=3, max_flips=2500, Success Rate: 1.0%, Total Flips: 744474, Time: 118.96 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=4.4, max_tries=3, max_flips=2500, Success Rate: 1.0%, Total Flips: 744563, Time: 120.42 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=4.5, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 149.38 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=4.6, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 153.45 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=4.7, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 157.02 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=4.8, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 158.66 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=4.9, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 162.31 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=5.0, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 164.55 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=5.1, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 166.68 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=5.2, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 168.84 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=5.3, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 172.21 seconds
+    c=10, Q=0.2, p=0.5, n=250, m/n=5.4, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 173.34 seconds
+
+#################### Q = 0.5 ####################
+
+#################### Max Flips = 2500.0 ####################
+    c=10, Q=0.5, p=0.5, n=250, m/n=2.5, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 12674, Time: 5.69 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=2.6, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 15345, Time: 6.08 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=2.7, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 16203, Time: 6.26 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=2.8, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 17906, Time: 6.61 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=2.9, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 22504, Time: 7.09 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=3.0, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 26088, Time: 7.65 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=3.1, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 32236, Time: 8.34 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=3.2, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 43216, Time: 9.80 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=3.3, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 58877, Time: 11.72 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=3.4, max_tries=3, max_flips=2500, Success Rate: 97.0%, Total Flips: 90497, Time: 16.19 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=3.5, max_tries=3, max_flips=2500, Success Rate: 94.0%, Total Flips: 116323, Time: 23.10 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=3.6, max_tries=3, max_flips=2500, Success Rate: 81.0%, Total Flips: 214234, Time: 38.01 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=3.7, max_tries=3, max_flips=2500, Success Rate: 71.0%, Total Flips: 297756, Time: 50.34 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=3.8, max_tries=3, max_flips=2500, Success Rate: 44.0%, Total Flips: 475681, Time: 76.35 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=3.9, max_tries=3, max_flips=2500, Success Rate: 39.0%, Total Flips: 506502, Time: 80.98 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=4.0, max_tries=3, max_flips=2500, Success Rate: 24.0%, Total Flips: 607454, Time: 94.78 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=4.1, max_tries=3, max_flips=2500, Success Rate: 15.0%, Total Flips: 657235, Time: 102.33 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=4.2, max_tries=3, max_flips=2500, Success Rate: 2.0%, Total Flips: 736405, Time: 112.80 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=4.3, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 117.56 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=4.4, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 119.99 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=4.5, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=4.6, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=4.7, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=4.8, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=4.9, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=5.0, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=5.1, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=5.2, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=5.3, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=250, m/n=5.4, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+
+#################### Q = 0.8 ####################
+
+#################### Max Flips = 2500.0 ####################
+    c=10, Q=0.8, p=0.5, n=250, m/n=2.5, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 13222, Time: 5.83 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=2.6, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 15202, Time: 6.06 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=2.7, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 16516, Time: 6.26 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=2.8, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 20067, Time: 6.86 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=2.9, max_tries=3, max_flips=2500, Success Rate: 99.0%, Total Flips: 29749, Time: 8.00 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=3.0, max_tries=3, max_flips=2500, Success Rate: 98.0%, Total Flips: 41393, Time: 9.63 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=3.1, max_tries=3, max_flips=2500, Success Rate: 96.0%, Total Flips: 64172, Time: 11.95 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=3.2, max_tries=3, max_flips=2500, Success Rate: 97.0%, Total Flips: 71671, Time: 12.75 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=3.3, max_tries=3, max_flips=2500, Success Rate: 94.0%, Total Flips: 97271, Time: 15.99 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=3.4, max_tries=3, max_flips=2500, Success Rate: 91.0%, Total Flips: 137826, Time: 21.86 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=3.5, max_tries=3, max_flips=2500, Success Rate: 77.0%, Total Flips: 237488, Time: 41.54 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=3.6, max_tries=3, max_flips=2500, Success Rate: 70.0%, Total Flips: 292589, Time: 51.34 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=3.7, max_tries=3, max_flips=2500, Success Rate: 57.0%, Total Flips: 385660, Time: 65.00 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=3.8, max_tries=3, max_flips=2500, Success Rate: 31.0%, Total Flips: 556301, Time: 88.21 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=3.9, max_tries=3, max_flips=2500, Success Rate: 26.0%, Total Flips: 588976, Time: 95.01 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=4.0, max_tries=3, max_flips=2500, Success Rate: 12.0%, Total Flips: 672807, Time: 107.11 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=4.1, max_tries=3, max_flips=2500, Success Rate: 10.0%, Total Flips: 688070, Time: 109.41 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=4.2, max_tries=3, max_flips=2500, Success Rate: 4.0%, Total Flips: 726388, Time: 116.04 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=4.3, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 120.42 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=4.4, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 123.60 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=4.5, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=4.6, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=4.7, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=4.8, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=4.9, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=5.0, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=5.1, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=5.2, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=5.3, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=250, m/n=5.4, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+
+#################### c = 20 ####################
+
+#################### Q = 0.2 ####################
+
+#################### Max Flips = 2500.0 ####################
+    c=20, Q=0.2, p=0.5, n=250, m/n=2.5, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 12528, Time: 5.79 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=2.6, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 14690, Time: 6.14 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=2.7, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 16460, Time: 6.42 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=2.8, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 18425, Time: 6.74 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=2.9, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 24925, Time: 7.60 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=3.0, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 26969, Time: 7.96 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=3.1, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 35054, Time: 8.91 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=3.2, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 49273, Time: 10.60 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=3.3, max_tries=3, max_flips=2500, Success Rate: 99.0%, Total Flips: 65891, Time: 12.62 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=3.4, max_tries=3, max_flips=2500, Success Rate: 99.0%, Total Flips: 73414, Time: 14.28 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=3.5, max_tries=3, max_flips=2500, Success Rate: 94.0%, Total Flips: 133779, Time: 26.55 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=3.6, max_tries=3, max_flips=2500, Success Rate: 81.0%, Total Flips: 228828, Time: 41.12 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=3.7, max_tries=3, max_flips=2500, Success Rate: 65.0%, Total Flips: 344587, Time: 57.54 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=3.8, max_tries=3, max_flips=2500, Success Rate: 45.0%, Total Flips: 475503, Time: 75.16 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=3.9, max_tries=3, max_flips=2500, Success Rate: 27.0%, Total Flips: 586804, Time: 92.30 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=4.0, max_tries=3, max_flips=2500, Success Rate: 14.0%, Total Flips: 667023, Time: 102.98 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=4.1, max_tries=3, max_flips=2500, Success Rate: 6.0%, Total Flips: 716055, Time: 111.11 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=4.2, max_tries=3, max_flips=2500, Success Rate: 5.0%, Total Flips: 721865, Time: 114.21 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=4.3, max_tries=3, max_flips=2500, Success Rate: 4.0%, Total Flips: 726146, Time: 115.91 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=4.4, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 123.03 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=4.5, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 152.05 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=4.6, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 157.75 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=4.7, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 159.85 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=4.8, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 163.40 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=4.9, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 164.11 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=5.0, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 168.19 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=5.1, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 169.37 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=5.2, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 172.87 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=5.3, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 175.19 seconds
+    c=20, Q=0.2, p=0.5, n=250, m/n=5.4, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 180.17 seconds
+
+#################### Q = 0.5 ####################
+
+#################### Max Flips = 2500.0 ####################
+    c=20, Q=0.5, p=0.5, n=250, m/n=2.5, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 12930, Time: 5.85 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=2.6, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 14794, Time: 6.09 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=2.7, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 17596, Time: 6.52 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=2.8, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 20707, Time: 7.10 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=2.9, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 22973, Time: 7.38 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=3.0, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 28873, Time: 8.19 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=3.1, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 33608, Time: 8.77 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=3.2, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 48966, Time: 10.71 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=3.3, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 49106, Time: 10.80 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=3.4, max_tries=3, max_flips=2500, Success Rate: 92.0%, Total Flips: 126908, Time: 24.21 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=3.5, max_tries=3, max_flips=2500, Success Rate: 90.0%, Total Flips: 156931, Time: 29.65 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=3.6, max_tries=3, max_flips=2500, Success Rate: 83.0%, Total Flips: 213773, Time: 38.85 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=3.7, max_tries=3, max_flips=2500, Success Rate: 57.0%, Total Flips: 388541, Time: 65.18 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=3.8, max_tries=3, max_flips=2500, Success Rate: 51.0%, Total Flips: 429344, Time: 74.34 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=3.9, max_tries=3, max_flips=2500, Success Rate: 31.0%, Total Flips: 556259, Time: 91.89 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=4.0, max_tries=3, max_flips=2500, Success Rate: 16.0%, Total Flips: 655848, Time: 107.64 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=4.1, max_tries=3, max_flips=2500, Success Rate: 10.0%, Total Flips: 687430, Time: 113.46 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=4.2, max_tries=3, max_flips=2500, Success Rate: 2.0%, Total Flips: 738250, Time: 122.74 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=4.3, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 126.42 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=4.4, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 129.87 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=4.5, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=4.6, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=4.7, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=4.8, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=4.9, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=5.0, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=5.1, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=5.2, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=5.3, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=250, m/n=5.4, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+
+#################### Q = 0.8 ####################
+
+#################### Max Flips = 2500.0 ####################
+    c=20, Q=0.8, p=0.5, n=250, m/n=2.5, max_tries=3, max_flips=2500, Success Rate: 97.0%, Total Flips: 36366, Time: 8.48 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=2.6, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 15310, Time: 6.17 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=2.7, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 17325, Time: 6.37 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=2.8, max_tries=3, max_flips=2500, Success Rate: 97.0%, Total Flips: 41808, Time: 9.70 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=2.9, max_tries=3, max_flips=2500, Success Rate: 94.0%, Total Flips: 72044, Time: 13.26 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=3.0, max_tries=3, max_flips=2500, Success Rate: 91.0%, Total Flips: 94061, Time: 15.97 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=3.1, max_tries=3, max_flips=2500, Success Rate: 86.0%, Total Flips: 141985, Time: 21.66 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=3.2, max_tries=3, max_flips=2500, Success Rate: 84.0%, Total Flips: 163191, Time: 24.09 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=3.3, max_tries=3, max_flips=2500, Success Rate: 71.0%, Total Flips: 254224, Time: 34.22 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=3.4, max_tries=3, max_flips=2500, Success Rate: 66.0%, Total Flips: 292976, Time: 39.76 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=3.5, max_tries=3, max_flips=2500, Success Rate: 51.0%, Total Flips: 412456, Time: 72.24 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=3.6, max_tries=3, max_flips=2500, Success Rate: 52.0%, Total Flips: 408022, Time: 74.01 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=3.7, max_tries=3, max_flips=2500, Success Rate: 34.0%, Total Flips: 530712, Time: 90.31 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=3.8, max_tries=3, max_flips=2500, Success Rate: 21.0%, Total Flips: 617391, Time: 104.12 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=3.9, max_tries=3, max_flips=2500, Success Rate: 8.0%, Total Flips: 698515, Time: 114.60 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=4.0, max_tries=3, max_flips=2500, Success Rate: 7.0%, Total Flips: 703703, Time: 118.11 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=4.1, max_tries=3, max_flips=2500, Success Rate: 2.0%, Total Flips: 737150, Time: 123.63 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=4.2, max_tries=3, max_flips=2500, Success Rate: 3.0%, Total Flips: 730844, Time: 125.26 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=4.3, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 128.96 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=4.4, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 131.19 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=4.5, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=4.6, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=4.7, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=4.8, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=4.9, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=5.0, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=5.1, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=5.2, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=5.3, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=250, m/n=5.4, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+
+#################### c = 30 ####################
+
+#################### Q = 0.2 ####################
+
+#################### Max Flips = 2500.0 ####################
+    c=30, Q=0.2, p=0.5, n=250, m/n=2.5, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 13058, Time: 5.86 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=2.6, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 15409, Time: 6.22 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=2.7, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 17430, Time: 6.56 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=2.8, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 19800, Time: 7.02 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=2.9, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 23055, Time: 7.45 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=3.0, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 27800, Time: 8.05 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=3.1, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 36418, Time: 9.18 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=3.2, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 44368, Time: 10.12 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=3.3, max_tries=3, max_flips=2500, Success Rate: 98.0%, Total Flips: 75477, Time: 13.62 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=3.4, max_tries=3, max_flips=2500, Success Rate: 98.0%, Total Flips: 84496, Time: 15.69 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=3.5, max_tries=3, max_flips=2500, Success Rate: 94.0%, Total Flips: 135801, Time: 26.90 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=3.6, max_tries=3, max_flips=2500, Success Rate: 84.0%, Total Flips: 207353, Time: 37.64 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=3.7, max_tries=3, max_flips=2500, Success Rate: 69.0%, Total Flips: 314580, Time: 53.17 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=3.8, max_tries=3, max_flips=2500, Success Rate: 49.0%, Total Flips: 450904, Time: 73.02 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=3.9, max_tries=3, max_flips=2500, Success Rate: 32.0%, Total Flips: 557330, Time: 88.22 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=4.0, max_tries=3, max_flips=2500, Success Rate: 26.0%, Total Flips: 596403, Time: 93.04 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=4.1, max_tries=3, max_flips=2500, Success Rate: 10.0%, Total Flips: 695448, Time: 107.79 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=4.2, max_tries=3, max_flips=2500, Success Rate: 3.0%, Total Flips: 732621, Time: 113.54 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=4.3, max_tries=3, max_flips=2500, Success Rate: 1.0%, Total Flips: 744964, Time: 118.46 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=4.4, max_tries=3, max_flips=2500, Success Rate: 1.0%, Total Flips: 744182, Time: 119.98 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=4.5, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 152.48 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=4.6, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 152.75 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=4.7, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 157.61 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=4.8, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 160.15 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=4.9, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 162.49 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=5.0, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 167.59 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=5.1, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 168.45 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=5.2, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 169.46 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=5.3, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 171.54 seconds
+    c=30, Q=0.2, p=0.5, n=250, m/n=5.4, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 174.94 seconds
+
+#################### Q = 0.5 ####################
+
+#################### Max Flips = 2500.0 ####################
+    c=30, Q=0.5, p=0.5, n=250, m/n=2.5, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 12590, Time: 5.68 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=2.6, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 16811, Time: 6.38 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=2.7, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 16905, Time: 6.37 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=2.8, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 20918, Time: 7.05 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=2.9, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 24974, Time: 7.63 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=3.0, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 31102, Time: 8.43 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=3.1, max_tries=3, max_flips=2500, Success Rate: 100.0%, Total Flips: 42630, Time: 9.77 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=3.2, max_tries=3, max_flips=2500, Success Rate: 95.0%, Total Flips: 87136, Time: 14.75 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=3.3, max_tries=3, max_flips=2500, Success Rate: 99.0%, Total Flips: 70557, Time: 12.97 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=3.4, max_tries=3, max_flips=2500, Success Rate: 92.0%, Total Flips: 131739, Time: 21.14 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=3.5, max_tries=3, max_flips=2500, Success Rate: 86.0%, Total Flips: 187319, Time: 34.15 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=3.6, max_tries=3, max_flips=2500, Success Rate: 72.0%, Total Flips: 289177, Time: 50.47 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=3.7, max_tries=3, max_flips=2500, Success Rate: 63.0%, Total Flips: 358164, Time: 60.91 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=3.8, max_tries=3, max_flips=2500, Success Rate: 46.0%, Total Flips: 466380, Time: 76.61 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=3.9, max_tries=3, max_flips=2500, Success Rate: 26.0%, Total Flips: 595412, Time: 93.26 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=4.0, max_tries=3, max_flips=2500, Success Rate: 18.0%, Total Flips: 637769, Time: 100.14 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=4.1, max_tries=3, max_flips=2500, Success Rate: 4.0%, Total Flips: 725959, Time: 112.13 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=4.2, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 117.23 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=4.3, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 120.99 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=4.4, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 122.68 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=4.5, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=4.6, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=4.7, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=4.8, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=4.9, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=5.0, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=5.1, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=5.2, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=5.3, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=250, m/n=5.4, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+
+#################### Q = 0.8 ####################
+
+#################### Max Flips = 2500.0 ####################
+    c=30, Q=0.8, p=0.5, n=250, m/n=2.5, max_tries=3, max_flips=2500, Success Rate: 98.0%, Total Flips: 29890, Time: 7.75 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=2.6, max_tries=3, max_flips=2500, Success Rate: 93.0%, Total Flips: 68408, Time: 12.53 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=2.7, max_tries=3, max_flips=2500, Success Rate: 92.0%, Total Flips: 76924, Time: 13.83 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=2.8, max_tries=3, max_flips=2500, Success Rate: 83.0%, Total Flips: 144715, Time: 22.04 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=2.9, max_tries=3, max_flips=2500, Success Rate: 84.0%, Total Flips: 140406, Time: 22.27 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=3.0, max_tries=3, max_flips=2500, Success Rate: 83.0%, Total Flips: 150988, Time: 23.25 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=3.1, max_tries=3, max_flips=2500, Success Rate: 72.0%, Total Flips: 237167, Time: 32.54 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=3.2, max_tries=3, max_flips=2500, Success Rate: 65.0%, Total Flips: 291797, Time: 38.51 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=3.3, max_tries=3, max_flips=2500, Success Rate: 48.0%, Total Flips: 416033, Time: 52.66 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=3.4, max_tries=3, max_flips=2500, Success Rate: 38.0%, Total Flips: 484179, Time: 60.89 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=3.5, max_tries=3, max_flips=2500, Success Rate: 28.0%, Total Flips: 558612, Time: 91.61 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=3.6, max_tries=3, max_flips=2500, Success Rate: 27.0%, Total Flips: 577881, Time: 97.41 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=3.7, max_tries=3, max_flips=2500, Success Rate: 14.0%, Total Flips: 658316, Time: 110.14 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=3.8, max_tries=3, max_flips=2500, Success Rate: 15.0%, Total Flips: 653272, Time: 112.38 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=3.9, max_tries=3, max_flips=2500, Success Rate: 4.0%, Total Flips: 723391, Time: 122.67 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=4.0, max_tries=3, max_flips=2500, Success Rate: 1.0%, Total Flips: 743635, Time: 125.66 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=4.1, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 127.92 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=4.2, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 131.46 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=4.3, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 133.21 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=4.4, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 136.02 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=4.5, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=4.6, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=4.7, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=4.8, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=4.9, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=5.0, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=5.1, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=5.2, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=5.3, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=250, m/n=5.4, max_tries=3, max_flips=2500, Success Rate: 0.0%, Total Flips: 750000, Time: 0.00 seconds
+
+#################### n = 500 ####################
+
+#################### c = 10 ####################
+
+#################### Q = 0.2 ####################
+
+#################### Max Flips = 5000.0 ####################
+    c=10, Q=0.2, p=0.5, n=500, m/n=2.5, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 25422, Time: 10.92 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=2.6, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 29303, Time: 12.08 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=2.7, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 33998, Time: 13.18 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=2.8, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 39954, Time: 14.95 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=2.9, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 48605, Time: 16.84 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=3.0, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 61168, Time: 19.46 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=3.1, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 74121, Time: 22.15 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=3.2, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 89661, Time: 25.53 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=3.3, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 116136, Time: 30.50 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=3.4, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 159469, Time: 39.32 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=3.5, max_tries=3, max_flips=5000, Success Rate: 88.0%, Total Flips: 365695, Time: 111.12 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=3.6, max_tries=3, max_flips=5000, Success Rate: 79.0%, Total Flips: 512723, Time: 153.98 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=3.7, max_tries=3, max_flips=5000, Success Rate: 59.0%, Total Flips: 778667, Time: 220.12 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=3.8, max_tries=3, max_flips=5000, Success Rate: 39.0%, Total Flips: 1040432, Time: 287.44 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=3.9, max_tries=3, max_flips=5000, Success Rate: 14.0%, Total Flips: 1339838, Time: 362.81 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=4.0, max_tries=3, max_flips=5000, Success Rate: 3.0%, Total Flips: 1466003, Time: 393.49 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=4.1, max_tries=3, max_flips=5000, Success Rate: 4.0%, Total Flips: 1450516, Time: 398.86 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=4.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 413.16 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=4.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 423.29 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=4.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 432.23 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=4.5, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=4.6, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=4.7, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=4.8, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=4.9, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=5.0, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=5.1, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=5.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=5.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=500, m/n=5.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+
+#################### Q = 0.5 ####################
+
+#################### Max Flips = 5000.0 ####################
+    c=10, Q=0.5, p=0.5, n=500, m/n=2.5, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 24407, Time: 10.44 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=2.6, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 28949, Time: 11.56 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=2.7, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 34005, Time: 12.77 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=2.8, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 41714, Time: 15.14 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=2.9, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 51374, Time: 16.83 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=3.0, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 59085, Time: 18.89 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=3.1, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 69558, Time: 20.78 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=3.2, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 87244, Time: 24.46 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=3.3, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 117170, Time: 30.15 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=3.4, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 147628, Time: 36.52 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=3.5, max_tries=3, max_flips=5000, Success Rate: 93.0%, Total Flips: 279751, Time: 90.55 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=3.6, max_tries=3, max_flips=5000, Success Rate: 74.0%, Total Flips: 560700, Time: 173.70 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=3.7, max_tries=3, max_flips=5000, Success Rate: 68.0%, Total Flips: 679810, Time: 209.61 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=3.8, max_tries=3, max_flips=5000, Success Rate: 38.0%, Total Flips: 1044461, Time: 298.56 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=3.9, max_tries=3, max_flips=5000, Success Rate: 17.0%, Total Flips: 1303660, Time: 347.72 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=4.0, max_tries=3, max_flips=5000, Success Rate: 3.0%, Total Flips: 1465218, Time: 385.91 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=4.1, max_tries=3, max_flips=5000, Success Rate: 2.0%, Total Flips: 1476237, Time: 395.04 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=4.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 412.92 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=4.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 421.92 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=4.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 426.29 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=4.5, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=4.6, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=4.7, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=4.8, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=4.9, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=5.0, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=5.1, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=5.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=5.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=500, m/n=5.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+
+#################### Q = 0.8 ####################
+
+#################### Max Flips = 5000.0 ####################
+    c=10, Q=0.8, p=0.5, n=500, m/n=2.5, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 24945, Time: 10.32 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=2.6, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 29208, Time: 11.62 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=2.7, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 34302, Time: 12.60 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=2.8, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 39207, Time: 14.25 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=2.9, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 49622, Time: 16.55 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=3.0, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 58120, Time: 18.22 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=3.1, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 71322, Time: 20.90 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=3.2, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 86907, Time: 24.32 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=3.3, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 119364, Time: 30.28 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=3.4, max_tries=3, max_flips=5000, Success Rate: 98.0%, Total Flips: 173406, Time: 41.67 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=3.5, max_tries=3, max_flips=5000, Success Rate: 90.0%, Total Flips: 307467, Time: 93.70 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=3.6, max_tries=3, max_flips=5000, Success Rate: 73.0%, Total Flips: 574094, Time: 164.90 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=3.7, max_tries=3, max_flips=5000, Success Rate: 60.0%, Total Flips: 771105, Time: 219.96 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=3.8, max_tries=3, max_flips=5000, Success Rate: 33.0%, Total Flips: 1104095, Time: 294.98 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=3.9, max_tries=3, max_flips=5000, Success Rate: 15.0%, Total Flips: 1328863, Time: 352.15 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=4.0, max_tries=3, max_flips=5000, Success Rate: 6.0%, Total Flips: 1431884, Time: 380.92 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=4.1, max_tries=3, max_flips=5000, Success Rate: 1.0%, Total Flips: 1489731, Time: 410.40 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=4.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 406.79 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=4.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 429.26 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=4.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 434.81 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=4.5, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=4.6, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=4.7, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=4.8, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=4.9, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=5.0, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=5.1, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=5.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=5.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=500, m/n=5.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+
+#################### c = 20 ####################
+
+#################### Q = 0.2 ####################
+
+#################### Max Flips = 5000.0 ####################
+    c=20, Q=0.2, p=0.5, n=500, m/n=2.5, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 24117, Time: 10.57 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=2.6, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 28217, Time: 11.80 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=2.7, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 33481, Time: 12.81 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=2.8, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 40782, Time: 15.03 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=2.9, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 49854, Time: 17.04 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=3.0, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 59249, Time: 18.82 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=3.1, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 70319, Time: 21.45 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=3.2, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 93523, Time: 25.52 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=3.3, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 119549, Time: 31.11 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=3.4, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 149085, Time: 37.57 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=3.5, max_tries=3, max_flips=5000, Success Rate: 92.0%, Total Flips: 309526, Time: 94.94 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=3.6, max_tries=3, max_flips=5000, Success Rate: 72.0%, Total Flips: 597947, Time: 173.14 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=3.7, max_tries=3, max_flips=5000, Success Rate: 61.0%, Total Flips: 761962, Time: 221.23 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=3.8, max_tries=3, max_flips=5000, Success Rate: 34.0%, Total Flips: 1103091, Time: 306.63 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=3.9, max_tries=3, max_flips=5000, Success Rate: 12.0%, Total Flips: 1357872, Time: 363.50 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=4.0, max_tries=3, max_flips=5000, Success Rate: 5.0%, Total Flips: 1445443, Time: 393.13 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=4.1, max_tries=3, max_flips=5000, Success Rate: 2.0%, Total Flips: 1477216, Time: 407.36 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=4.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 419.34 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=4.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 429.88 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=4.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 437.28 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=4.5, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=4.6, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=4.7, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=4.8, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=4.9, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=5.0, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=5.1, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=5.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=5.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=500, m/n=5.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+
+#################### Q = 0.5 ####################
+
+#################### Max Flips = 5000.0 ####################
+    c=20, Q=0.5, p=0.5, n=500, m/n=2.5, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 24786, Time: 10.42 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=2.6, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 29525, Time: 11.65 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=2.7, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 32334, Time: 12.37 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=2.8, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 39698, Time: 14.49 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=2.9, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 47610, Time: 16.18 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=3.0, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 59661, Time: 18.56 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=3.1, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 70366, Time: 21.22 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=3.2, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 92724, Time: 25.21 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=3.3, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 114298, Time: 29.46 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=3.4, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 136848, Time: 34.39 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=3.5, max_tries=3, max_flips=5000, Success Rate: 95.0%, Total Flips: 281813, Time: 85.18 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=3.6, max_tries=3, max_flips=5000, Success Rate: 82.0%, Total Flips: 485362, Time: 132.69 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=3.7, max_tries=3, max_flips=5000, Success Rate: 69.0%, Total Flips: 643343, Time: 171.25 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=3.8, max_tries=3, max_flips=5000, Success Rate: 29.0%, Total Flips: 1152052, Time: 279.81 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=3.9, max_tries=3, max_flips=5000, Success Rate: 14.0%, Total Flips: 1336386, Time: 322.80 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=4.0, max_tries=3, max_flips=5000, Success Rate: 5.0%, Total Flips: 1442744, Time: 350.43 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=4.1, max_tries=3, max_flips=5000, Success Rate: 2.0%, Total Flips: 1477032, Time: 366.22 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=4.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 380.06 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=4.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 389.10 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=4.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 394.87 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=4.5, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=4.6, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=4.7, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=4.8, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=4.9, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=5.0, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=5.1, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=5.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=5.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=500, m/n=5.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+
+#################### Q = 0.8 ####################
+
+#################### Max Flips = 5000.0 ####################
+    c=20, Q=0.8, p=0.5, n=500, m/n=2.5, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 25895, Time: 10.38 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=2.6, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 28265, Time: 11.21 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=2.7, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 33365, Time: 12.57 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=2.8, max_tries=3, max_flips=5000, Success Rate: 99.0%, Total Flips: 56096, Time: 18.00 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=2.9, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 51138, Time: 17.54 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=3.0, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 61030, Time: 19.65 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=3.1, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 70255, Time: 21.36 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=3.2, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 90223, Time: 25.25 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=3.3, max_tries=3, max_flips=5000, Success Rate: 94.0%, Total Flips: 216107, Time: 46.90 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=3.4, max_tries=3, max_flips=5000, Success Rate: 95.0%, Total Flips: 219894, Time: 49.40 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=3.5, max_tries=3, max_flips=5000, Success Rate: 78.0%, Total Flips: 485751, Time: 140.43 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=3.6, max_tries=3, max_flips=5000, Success Rate: 70.0%, Total Flips: 611624, Time: 176.34 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=3.7, max_tries=3, max_flips=5000, Success Rate: 45.0%, Total Flips: 950009, Time: 268.09 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=3.8, max_tries=3, max_flips=5000, Success Rate: 22.0%, Total Flips: 1234637, Time: 336.30 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=3.9, max_tries=3, max_flips=5000, Success Rate: 11.0%, Total Flips: 1362728, Time: 368.50 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=4.0, max_tries=3, max_flips=5000, Success Rate: 2.0%, Total Flips: 1475138, Time: 399.98 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=4.1, max_tries=3, max_flips=5000, Success Rate: 1.0%, Total Flips: 1488297, Time: 411.11 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=4.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 422.64 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=4.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 433.47 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=4.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 439.35 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=4.5, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=4.6, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=4.7, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=4.8, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=4.9, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=5.0, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=5.1, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=5.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=5.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=500, m/n=5.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+
+#################### c = 30 ####################
+
+#################### Q = 0.2 ####################
+
+#################### Max Flips = 5000.0 ####################
+    c=30, Q=0.2, p=0.5, n=500, m/n=2.5, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 23902, Time: 10.59 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=2.6, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 30166, Time: 12.00 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=2.7, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 34277, Time: 13.12 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=2.8, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 39429, Time: 14.86 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=2.9, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 45342, Time: 16.35 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=3.0, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 60367, Time: 19.43 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=3.1, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 72618, Time: 22.04 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=3.2, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 94440, Time: 26.44 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=3.3, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 111869, Time: 30.13 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=3.4, max_tries=3, max_flips=5000, Success Rate: 98.0%, Total Flips: 187126, Time: 45.97 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=3.5, max_tries=3, max_flips=5000, Success Rate: 93.0%, Total Flips: 283254, Time: 85.51 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=3.6, max_tries=3, max_flips=5000, Success Rate: 72.0%, Total Flips: 595143, Time: 169.01 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=3.7, max_tries=3, max_flips=5000, Success Rate: 51.0%, Total Flips: 878848, Time: 248.76 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=3.8, max_tries=3, max_flips=5000, Success Rate: 42.0%, Total Flips: 1017052, Time: 290.96 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=3.9, max_tries=3, max_flips=5000, Success Rate: 16.0%, Total Flips: 1315856, Time: 355.44 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=4.0, max_tries=3, max_flips=5000, Success Rate: 4.0%, Total Flips: 1454223, Time: 390.67 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=4.1, max_tries=3, max_flips=5000, Success Rate: 1.0%, Total Flips: 1487962, Time: 405.75 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=4.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 421.52 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=4.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 428.02 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=4.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 434.23 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=4.5, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=4.6, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=4.7, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=4.8, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=4.9, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=5.0, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=5.1, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=5.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=5.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=500, m/n=5.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+
+#################### Q = 0.5 ####################
+
+#################### Max Flips = 5000.0 ####################
+    c=30, Q=0.5, p=0.5, n=500, m/n=2.5, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 25318, Time: 10.39 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=2.6, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 30895, Time: 11.77 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=2.7, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 32711, Time: 12.56 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=2.8, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 40904, Time: 14.91 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=2.9, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 49711, Time: 16.84 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=3.0, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 60448, Time: 18.63 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=3.1, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 71997, Time: 21.08 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=3.2, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 90130, Time: 24.82 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=3.3, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 110158, Time: 28.83 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=3.4, max_tries=3, max_flips=5000, Success Rate: 99.0%, Total Flips: 192205, Time: 45.64 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=3.5, max_tries=3, max_flips=5000, Success Rate: 90.0%, Total Flips: 339157, Time: 103.78 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=3.6, max_tries=3, max_flips=5000, Success Rate: 78.0%, Total Flips: 509169, Time: 150.79 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=3.7, max_tries=3, max_flips=5000, Success Rate: 54.0%, Total Flips: 844026, Time: 234.44 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=3.8, max_tries=3, max_flips=5000, Success Rate: 36.0%, Total Flips: 1071274, Time: 281.92 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=3.9, max_tries=3, max_flips=5000, Success Rate: 10.0%, Total Flips: 1383068, Time: 346.99 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=4.0, max_tries=3, max_flips=5000, Success Rate: 1.0%, Total Flips: 1486462, Time: 376.19 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=4.1, max_tries=3, max_flips=5000, Success Rate: 1.0%, Total Flips: 1489337, Time: 381.95 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=4.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 392.92 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=4.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 403.26 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=4.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 409.28 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=4.5, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=4.6, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=4.7, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=4.8, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=4.9, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=5.0, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=5.1, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=5.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=5.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=500, m/n=5.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+
+#################### Q = 0.8 ####################
+
+#################### Max Flips = 5000.0 ####################
+    c=30, Q=0.8, p=0.5, n=500, m/n=2.5, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 23826, Time: 9.56 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=2.6, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 31216, Time: 10.76 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=2.7, max_tries=3, max_flips=5000, Success Rate: 100.0%, Total Flips: 37109, Time: 11.87 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=2.8, max_tries=3, max_flips=5000, Success Rate: 97.0%, Total Flips: 86169, Time: 20.81 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=2.9, max_tries=3, max_flips=5000, Success Rate: 98.0%, Total Flips: 85810, Time: 21.07 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=3.0, max_tries=3, max_flips=5000, Success Rate: 95.0%, Total Flips: 138410, Time: 31.44 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=3.1, max_tries=3, max_flips=5000, Success Rate: 92.0%, Total Flips: 199746, Time: 41.77 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=3.2, max_tries=3, max_flips=5000, Success Rate: 91.0%, Total Flips: 223750, Time: 47.45 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=3.3, max_tries=3, max_flips=5000, Success Rate: 87.0%, Total Flips: 301931, Time: 60.82 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=3.4, max_tries=3, max_flips=5000, Success Rate: 79.0%, Total Flips: 437336, Time: 87.30 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=3.5, max_tries=3, max_flips=5000, Success Rate: 62.0%, Total Flips: 683702, Time: 200.77 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=3.6, max_tries=3, max_flips=5000, Success Rate: 35.0%, Total Flips: 1050714, Time: 307.07 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=3.7, max_tries=3, max_flips=5000, Success Rate: 17.0%, Total Flips: 1292133, Time: 373.23 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=3.8, max_tries=3, max_flips=5000, Success Rate: 16.0%, Total Flips: 1305078, Time: 378.45 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=3.9, max_tries=3, max_flips=5000, Success Rate: 7.0%, Total Flips: 1419343, Time: 412.07 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=4.0, max_tries=3, max_flips=5000, Success Rate: 1.0%, Total Flips: 1487578, Time: 433.96 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=4.1, max_tries=3, max_flips=5000, Success Rate: 1.0%, Total Flips: 1488353, Time: 447.41 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=4.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 455.52 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=4.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 461.48 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=4.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 467.91 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=4.5, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=4.6, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=4.7, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=4.8, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=4.9, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=5.0, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=5.1, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=5.2, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=5.3, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=500, m/n=5.4, max_tries=3, max_flips=5000, Success Rate: 0.0%, Total Flips: 1500000, Time: 0.00 seconds
+
+#################### n = 1000 ####################
+
+#################### c = 10 ####################
+
+#################### Q = 0.2 ####################
+
+#################### Max Flips = 10000.0 ####################
+    c=10, Q=0.2, p=0.5, n=1000, m/n=2.5, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 46905, Time: 28.28 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=2.6, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 53618, Time: 32.02 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=2.7, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 65806, Time: 37.32 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=2.8, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 76130, Time: 44.55 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=2.9, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 94669, Time: 51.77 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=3.0, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 113844, Time: 60.34 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=3.1, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 144335, Time: 70.57 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=3.2, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 184030, Time: 86.44 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=3.3, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 253349, Time: 111.88 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=3.4, max_tries=3, max_flips=10000, Success Rate: 98.0%, Total Flips: 406231, Time: 170.08 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=3.5, max_tries=3, max_flips=10000, Success Rate: 96.0%, Total Flips: 583896, Time: 368.24 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=3.6, max_tries=3, max_flips=10000, Success Rate: 83.0%, Total Flips: 989490, Time: 599.90 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=3.7, max_tries=3, max_flips=10000, Success Rate: 43.0%, Total Flips: 1999071, Time: 1161.45 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=3.8, max_tries=3, max_flips=10000, Success Rate: 17.0%, Total Flips: 2618339, Time: 1483.81 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=3.9, max_tries=3, max_flips=10000, Success Rate: 3.0%, Total Flips: 2931145, Time: 1659.67 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=4.0, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1726.35 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=4.1, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1768.72 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=4.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1808.49 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=4.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1835.28 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=4.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1884.95 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=4.5, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=4.6, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=4.7, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=4.8, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=4.9, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=5.0, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=5.1, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=5.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=5.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.2, p=0.5, n=1000, m/n=5.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+
+#################### Q = 0.5 ####################
+
+#################### Max Flips = 10000.0 ####################
+    c=10, Q=0.5, p=0.5, n=1000, m/n=2.5, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 47038, Time: 27.38 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=2.6, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 53078, Time: 30.14 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=2.7, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 65760, Time: 35.38 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=2.8, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 71166, Time: 41.67 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=2.9, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 91262, Time: 49.62 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=3.0, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 112346, Time: 57.58 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=3.1, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 137009, Time: 66.59 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=3.2, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 173232, Time: 80.80 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=3.3, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 239803, Time: 105.14 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=3.4, max_tries=3, max_flips=10000, Success Rate: 99.0%, Total Flips: 352022, Time: 148.58 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=3.5, max_tries=3, max_flips=10000, Success Rate: 97.0%, Total Flips: 562145, Time: 349.82 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=3.6, max_tries=3, max_flips=10000, Success Rate: 83.0%, Total Flips: 969817, Time: 580.06 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=3.7, max_tries=3, max_flips=10000, Success Rate: 58.0%, Total Flips: 1644545, Time: 954.20 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=3.8, max_tries=3, max_flips=10000, Success Rate: 30.0%, Total Flips: 2315231, Time: 1299.72 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=3.9, max_tries=3, max_flips=10000, Success Rate: 5.0%, Total Flips: 2888591, Time: 1585.36 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=4.0, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1672.47 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=4.1, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1707.82 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=4.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1747.38 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=4.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1766.13 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=4.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1823.92 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=4.5, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=4.6, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=4.7, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=4.8, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=4.9, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=5.0, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=5.1, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=5.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=5.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.5, p=0.5, n=1000, m/n=5.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+
+#################### Q = 0.8 ####################
+
+#################### Max Flips = 10000.0 ####################
+    c=10, Q=0.8, p=0.5, n=1000, m/n=2.5, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 49406, Time: 28.49 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=2.6, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 56889, Time: 31.77 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=2.7, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 66679, Time: 35.74 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=2.8, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 78730, Time: 44.11 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=2.9, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 95065, Time: 51.00 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=3.0, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 114375, Time: 59.42 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=3.1, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 142170, Time: 69.71 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=3.2, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 171274, Time: 80.04 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=3.3, max_tries=3, max_flips=10000, Success Rate: 99.0%, Total Flips: 239461, Time: 105.62 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=3.4, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 297510, Time: 129.07 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=3.5, max_tries=3, max_flips=10000, Success Rate: 95.0%, Total Flips: 548710, Time: 349.87 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=3.6, max_tries=3, max_flips=10000, Success Rate: 78.0%, Total Flips: 1101109, Time: 672.48 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=3.7, max_tries=3, max_flips=10000, Success Rate: 49.0%, Total Flips: 1848969, Time: 1024.32 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=3.8, max_tries=3, max_flips=10000, Success Rate: 28.0%, Total Flips: 2348719, Time: 1302.45 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=3.9, max_tries=3, max_flips=10000, Success Rate: 9.0%, Total Flips: 2798986, Time: 1531.93 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=4.0, max_tries=3, max_flips=10000, Success Rate: 2.0%, Total Flips: 2953739, Time: 1640.35 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=4.1, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1684.05 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=4.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1732.32 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=4.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1754.16 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=4.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1805.17 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=4.5, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=4.6, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=4.7, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=4.8, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=4.9, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=5.0, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=5.1, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=5.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=5.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=10, Q=0.8, p=0.5, n=1000, m/n=5.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+
+#################### c = 20 ####################
+
+#################### Q = 0.2 ####################
+
+#################### Max Flips = 10000.0 ####################
+    c=20, Q=0.2, p=0.5, n=1000, m/n=2.5, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 49032, Time: 30.29 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=2.6, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 56585, Time: 34.34 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=2.7, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 61636, Time: 37.13 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=2.8, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 78718, Time: 46.62 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=2.9, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 102349, Time: 56.23 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=3.0, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 115235, Time: 62.04 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=3.1, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 139925, Time: 71.94 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=3.2, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 175461, Time: 86.10 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=3.3, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 241744, Time: 108.78 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=3.4, max_tries=3, max_flips=10000, Success Rate: 99.0%, Total Flips: 384911, Time: 165.59 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=3.5, max_tries=3, max_flips=10000, Success Rate: 97.0%, Total Flips: 517707, Time: 323.31 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=3.6, max_tries=3, max_flips=10000, Success Rate: 81.0%, Total Flips: 1051398, Time: 633.45 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=3.7, max_tries=3, max_flips=10000, Success Rate: 53.0%, Total Flips: 1789516, Time: 1047.39 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=3.8, max_tries=3, max_flips=10000, Success Rate: 17.0%, Total Flips: 2621764, Time: 1473.76 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=3.9, max_tries=3, max_flips=10000, Success Rate: 4.0%, Total Flips: 2912017, Time: 1638.53 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=4.0, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1715.86 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=4.1, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1756.04 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=4.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1792.71 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=4.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1831.31 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=4.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1866.83 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=4.5, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=4.6, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=4.7, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=4.8, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=4.9, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=5.0, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=5.1, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=5.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=5.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.2, p=0.5, n=1000, m/n=5.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+
+#################### Q = 0.5 ####################
+
+#################### Max Flips = 10000.0 ####################
+    c=20, Q=0.5, p=0.5, n=1000, m/n=2.5, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 47690, Time: 26.68 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=2.6, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 52864, Time: 29.44 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=2.7, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 65734, Time: 34.81 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=2.8, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 74370, Time: 41.62 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=2.9, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 92030, Time: 48.89 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=3.0, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 120205, Time: 58.85 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=3.1, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 143238, Time: 67.82 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=3.2, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 187237, Time: 84.45 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=3.3, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 239962, Time: 104.33 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=3.4, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 315745, Time: 136.38 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=3.5, max_tries=3, max_flips=10000, Success Rate: 93.0%, Total Flips: 596033, Time: 373.54 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=3.6, max_tries=3, max_flips=10000, Success Rate: 84.0%, Total Flips: 974264, Time: 602.88 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=3.7, max_tries=3, max_flips=10000, Success Rate: 47.0%, Total Flips: 1897281, Time: 1099.54 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=3.8, max_tries=3, max_flips=10000, Success Rate: 24.0%, Total Flips: 2468955, Time: 1399.28 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=3.9, max_tries=3, max_flips=10000, Success Rate: 3.0%, Total Flips: 2938791, Time: 1648.62 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=4.0, max_tries=3, max_flips=10000, Success Rate: 1.0%, Total Flips: 2977942, Time: 1699.64 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=4.1, max_tries=3, max_flips=10000, Success Rate: 1.0%, Total Flips: 2976515, Time: 1726.30 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=4.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1772.01 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=4.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1818.53 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=4.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1856.69 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=4.5, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=4.6, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=4.7, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=4.8, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=4.9, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=5.0, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=5.1, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=5.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=5.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.5, p=0.5, n=1000, m/n=5.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+
+#################### Q = 0.8 ####################
+
+#################### Max Flips = 10000.0 ####################
+    c=20, Q=0.8, p=0.5, n=1000, m/n=2.5, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 47164, Time: 26.35 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=2.6, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 56880, Time: 30.93 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=2.7, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 65162, Time: 35.08 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=2.8, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 80460, Time: 43.59 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=2.9, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 89596, Time: 48.11 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=3.0, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 115809, Time: 58.21 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=3.1, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 142115, Time: 68.10 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=3.2, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 176568, Time: 81.46 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=3.3, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 235205, Time: 103.02 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=3.4, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 341102, Time: 144.23 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=3.5, max_tries=3, max_flips=10000, Success Rate: 93.0%, Total Flips: 618362, Time: 397.39 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=3.6, max_tries=3, max_flips=10000, Success Rate: 77.0%, Total Flips: 1119382, Time: 715.01 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=3.7, max_tries=3, max_flips=10000, Success Rate: 54.0%, Total Flips: 1701616, Time: 1039.98 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=3.8, max_tries=3, max_flips=10000, Success Rate: 21.0%, Total Flips: 2516596, Time: 1483.47 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=3.9, max_tries=3, max_flips=10000, Success Rate: 2.0%, Total Flips: 2955421, Time: 1720.89 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=4.0, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1793.86 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=4.1, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1816.60 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=4.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1857.22 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=4.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1899.60 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=4.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1973.15 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=4.5, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=4.6, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=4.7, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=4.8, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=4.9, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=5.0, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=5.1, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=5.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=5.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=20, Q=0.8, p=0.5, n=1000, m/n=5.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+
+#################### c = 30 ####################
+
+#################### Q = 0.2 ####################
+
+#################### Max Flips = 10000.0 ####################
+    c=30, Q=0.2, p=0.5, n=1000, m/n=2.5, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 47143, Time: 29.52 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=2.6, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 54059, Time: 32.53 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=2.7, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 64645, Time: 37.93 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=2.8, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 79814, Time: 46.37 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=2.9, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 95295, Time: 53.11 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=3.0, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 118679, Time: 62.39 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=3.1, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 141497, Time: 72.52 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=3.2, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 188801, Time: 89.43 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=3.3, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 239451, Time: 109.55 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=3.4, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 369082, Time: 160.63 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=3.5, max_tries=3, max_flips=10000, Success Rate: 95.0%, Total Flips: 560655, Time: 350.96 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=3.6, max_tries=3, max_flips=10000, Success Rate: 84.0%, Total Flips: 969608, Time: 593.01 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=3.7, max_tries=3, max_flips=10000, Success Rate: 36.0%, Total Flips: 2162197, Time: 1224.74 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=3.8, max_tries=3, max_flips=10000, Success Rate: 19.0%, Total Flips: 2574463, Time: 1455.55 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=3.9, max_tries=3, max_flips=10000, Success Rate: 2.0%, Total Flips: 2957392, Time: 1663.95 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=4.0, max_tries=3, max_flips=10000, Success Rate: 1.0%, Total Flips: 2975918, Time: 1724.27 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=4.1, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1773.38 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=4.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1798.01 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=4.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1833.18 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=4.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1877.05 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=4.5, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=4.6, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=4.7, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=4.8, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=4.9, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=5.0, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=5.1, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=5.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=5.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.2, p=0.5, n=1000, m/n=5.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+
+#################### Q = 0.5 ####################
+
+#################### Max Flips = 10000.0 ####################
+    c=30, Q=0.5, p=0.5, n=1000, m/n=2.5, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 48888, Time: 30.74 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=2.6, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 54095, Time: 34.44 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=2.7, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 65017, Time: 37.86 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=2.8, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 77901, Time: 46.85 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=2.9, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 94427, Time: 53.86 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=3.0, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 109457, Time: 60.09 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=3.1, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 142146, Time: 76.04 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=3.2, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 182775, Time: 89.06 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=3.3, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 245907, Time: 118.20 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=3.4, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 342507, Time: 156.19 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=3.5, max_tries=3, max_flips=10000, Success Rate: 97.0%, Total Flips: 477511, Time: 295.12 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=3.6, max_tries=3, max_flips=10000, Success Rate: 82.0%, Total Flips: 1020940, Time: 609.05 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=3.7, max_tries=3, max_flips=10000, Success Rate: 54.0%, Total Flips: 1741353, Time: 998.06 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=3.8, max_tries=3, max_flips=10000, Success Rate: 20.0%, Total Flips: 2544272, Time: 1417.99 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=3.9, max_tries=3, max_flips=10000, Success Rate: 2.0%, Total Flips: 2954345, Time: 1621.88 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=4.0, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1679.19 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=4.1, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1722.53 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=4.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1760.62 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=4.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1793.74 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=4.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1836.23 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=4.5, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=4.6, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=4.7, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=4.8, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=4.9, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=5.0, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=5.1, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=5.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=5.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.5, p=0.5, n=1000, m/n=5.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+
+#################### Q = 0.8 ####################
+
+#################### Max Flips = 10000.0 ####################
+    c=30, Q=0.8, p=0.5, n=1000, m/n=2.5, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 47973, Time: 27.60 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=2.6, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 56219, Time: 31.79 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=2.7, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 66707, Time: 36.17 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=2.8, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 80077, Time: 44.04 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=2.9, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 97421, Time: 51.62 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=3.0, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 116848, Time: 59.40 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=3.1, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 149677, Time: 71.07 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=3.2, max_tries=3, max_flips=10000, Success Rate: 100.0%, Total Flips: 188982, Time: 87.03 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=3.3, max_tries=3, max_flips=10000, Success Rate: 99.0%, Total Flips: 278718, Time: 120.62 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=3.4, max_tries=3, max_flips=10000, Success Rate: 97.0%, Total Flips: 462917, Time: 191.14 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=3.5, max_tries=3, max_flips=10000, Success Rate: 89.0%, Total Flips: 750667, Time: 468.29 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=3.6, max_tries=3, max_flips=10000, Success Rate: 66.0%, Total Flips: 1371902, Time: 853.29 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=3.7, max_tries=3, max_flips=10000, Success Rate: 36.0%, Total Flips: 2135264, Time: 1290.65 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=3.8, max_tries=3, max_flips=10000, Success Rate: 13.0%, Total Flips: 2695908, Time: 1614.61 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=3.9, max_tries=3, max_flips=10000, Success Rate: 7.0%, Total Flips: 2839143, Time: 1718.73 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=4.0, max_tries=3, max_flips=10000, Success Rate: 1.0%, Total Flips: 2976733, Time: 1823.14 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=4.1, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1847.13 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=4.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1878.76 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=4.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1898.05 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=4.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 1914.80 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=4.5, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=4.6, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=4.7, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=4.8, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=4.9, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=5.0, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=5.1, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=5.2, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=5.3, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+    c=30, Q=0.8, p=0.5, n=1000, m/n=5.4, max_tries=3, max_flips=10000, Success Rate: 0.0%, Total Flips: 3000000, Time: 0.00 seconds
+
+================================================================================
+Fin de resultados

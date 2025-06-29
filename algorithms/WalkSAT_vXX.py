@@ -11,6 +11,8 @@ import comprueba_SAT
 import tempfile
 import os
 import shutil
+import traceback
+
 
 class WalkSAT:
     # Initialize the WalkSAT solver with the given parameters
@@ -140,142 +142,145 @@ class WalkSAT:
 
     # Main method to attempt solving the SAT problem, allowing flips and retries
     def solve(self, max_flips, max_tries, probability):
-        for tries in range(max_tries):
-            # Inicialización aleatoria (conservando la original)
-            # random.seed(2)  # Mantengo tu semilla fija
-            assignment = {variable + 1: random.choice([True, False]) for variable in range(self.variables)}
-            variable_clauses, score_clauses, clause_assignment = self.get_variable_clauses(assignment) 
-            
-            # Evaluación inicial (igual que en tu versión)
-            satisfied_total = 0 
-            for clauses in score_clauses:
-                if score_clauses[clauses] != 0:
-                    satisfied_total += 1
-            if satisfied_total == self.clauses:
-                with open("random_assignment.txt", "w") as file:
-                    file.write(str(assignment))
-                return True, tries+1, 1
-
-            for flips in range(max_flips): 
-                # Selección de cláusula insatisfecha (igual que original)
-                clauses_unsatisfied = [key for key, value in score_clauses.items() if value==0]
-                clause_unsatisfied = random.choice(clauses_unsatisfied)
+        try:
+            for tries in range(max_tries):
+                # Inicialización aleatoria (conservando la original)
+                # random.seed(2)  # Mantengo tu semilla fija
+                assignment = {variable + 1: random.choice([True, False]) for variable in range(self.variables)}
+                variable_clauses, score_clauses, clause_assignment = self.get_variable_clauses(assignment) 
                 
-                # Identificar comunidad dominante (nueva funcionalidad)
-                clause_idx = clause_unsatisfied - 1
-                dominant_community = None
-                if clause_idx < len(self.clause_community_count):
-                    comm_counts = self.clause_community_count[clause_idx]
-                    if comm_counts:
-                        dominant_community = max(comm_counts.items(), key=lambda x: x[1])[0]
+                # Evaluación inicial (igual que en tu versión)
+                satisfied_total = 0 
+                for clauses in score_clauses:
+                    if score_clauses[clauses] != 0:
+                        satisfied_total += 1
+                if satisfied_total == self.clauses:
+                    with open("random_assignment.txt", "w") as file:
+                        file.write(str(assignment))
+                    return True, tries+1, 1
 
-                freebie_move = False
-                break_count = {}
-                score_clauses_auxiliar = {}
-                satisfied_total_auxiliar = {}
-                clause_assignment_auxiliar = {}
-                
-                # Evaluar cada variable de la cláusula (estructura original)
-                for variable in clause_assignment[clause_unsatisfied]:
-                    break_count[variable] = 0
-                    score_clauses_auxiliar[variable] = score_clauses.copy()
-                    satisfied_total_auxiliar[variable] = satisfied_total
-                    clause_assignment_auxiliar[variable] = clause_assignment.copy()
+                for flips in range(max_flips): 
+                    # Selección de cláusula insatisfecha (igual que original)
+                    clauses_unsatisfied = [key for key, value in score_clauses.items() if value==0]
+                    clause_unsatisfied = random.choice(clauses_unsatisfied)
                     
-                    # Lógica original de evaluación de flip
-                    for clause in variable_clauses[variable]:
-                        if variable > 0:
-                            if score_clauses_auxiliar[variable][clause] == 1:
-                                break_count[variable] += 1
-                                satisfied_total_auxiliar[variable] -= 1
-                            if score_clauses_auxiliar[variable][clause] != 0:
-                                score_clauses_auxiliar[variable][clause] -= 1
-                        else:
-                            if score_clauses_auxiliar[variable][clause] == 0:
-                                satisfied_total_auxiliar[variable] += 1
-                            if score_clauses_auxiliar[variable][clause] != 3:
-                                score_clauses_auxiliar[variable][clause] += 1
+                    # Identificar comunidad dominante (nueva funcionalidad)
+                    clause_idx = clause_unsatisfied - 1
+                    dominant_community = None
+                    if clause_idx < len(self.clause_community_count):
+                        comm_counts = self.clause_community_count[clause_idx]
+                        if comm_counts:
+                            dominant_community = max(comm_counts.items(), key=lambda x: x[1])[0]
 
-                        # Actualización de literales (original)
-                        for i in range(len(clause_assignment_auxiliar[variable][clause])):
-                            if abs(clause_assignment_auxiliar[variable][clause][i]) == abs(variable):
-                                clause_assignment_auxiliar[variable][clause][i] = -clause_assignment_auxiliar[variable][clause][i]
+                    freebie_move = False
+                    break_count = {}
+                    score_clauses_auxiliar = {}
+                    satisfied_total_auxiliar = {}
+                    clause_assignment_auxiliar = {}
                     
-                    # Evaluar literal opuesto (original)
-                    if -variable in variable_clauses:
-                        for clause in variable_clauses[-variable]:
+                    # Evaluar cada variable de la cláusula (estructura original)
+                    for variable in clause_assignment[clause_unsatisfied]:
+                        break_count[variable] = 0
+                        score_clauses_auxiliar[variable] = score_clauses.copy()
+                        satisfied_total_auxiliar[variable] = satisfied_total
+                        clause_assignment_auxiliar[variable] = clause_assignment.copy()
+                        
+                        # Lógica original de evaluación de flip
+                        for clause in variable_clauses[variable]:
                             if variable > 0:
-                                if score_clauses_auxiliar[variable][clause] == 0:
-                                    satisfied_total_auxiliar[variable] += 1
-                                if score_clauses_auxiliar[variable][clause] != 3:
-                                    score_clauses_auxiliar[variable][clause] += 1
-                            else:
                                 if score_clauses_auxiliar[variable][clause] == 1:
                                     break_count[variable] += 1
                                     satisfied_total_auxiliar[variable] -= 1
                                 if score_clauses_auxiliar[variable][clause] != 0:
-                                    score_clauses_auxiliar[variable][clause] -= 1 
+                                    score_clauses_auxiliar[variable][clause] -= 1
+                            else:
+                                if score_clauses_auxiliar[variable][clause] == 0:
+                                    satisfied_total_auxiliar[variable] += 1
+                                if score_clauses_auxiliar[variable][clause] != 3:
+                                    score_clauses_auxiliar[variable][clause] += 1
 
+                            # Actualización de literales (original)
                             for i in range(len(clause_assignment_auxiliar[variable][clause])):
                                 if abs(clause_assignment_auxiliar[variable][clause][i]) == abs(variable):
                                     clause_assignment_auxiliar[variable][clause][i] = -clause_assignment_auxiliar[variable][clause][i]
+                        
+                        # Evaluar literal opuesto (original)
+                        if -variable in variable_clauses:
+                            for clause in variable_clauses[-variable]:
+                                if variable > 0:
+                                    if score_clauses_auxiliar[variable][clause] == 0:
+                                        satisfied_total_auxiliar[variable] += 1
+                                    if score_clauses_auxiliar[variable][clause] != 3:
+                                        score_clauses_auxiliar[variable][clause] += 1
+                                else:
+                                    if score_clauses_auxiliar[variable][clause] == 1:
+                                        break_count[variable] += 1
+                                        satisfied_total_auxiliar[variable] -= 1
+                                    if score_clauses_auxiliar[variable][clause] != 0:
+                                        score_clauses_auxiliar[variable][clause] -= 1 
 
-                    # Freebie move con prioridad comunitaria (modificación clave)
-                    if break_count[variable] == 0:
-                        var_abs = abs(variable)
-                        if dominant_community and var_abs in self.variable_to_community:
-                            if self.variable_to_community[var_abs] == dominant_community:
+                                for i in range(len(clause_assignment_auxiliar[variable][clause])):
+                                    if abs(clause_assignment_auxiliar[variable][clause][i]) == abs(variable):
+                                        clause_assignment_auxiliar[variable][clause][i] = -clause_assignment_auxiliar[variable][clause][i]
+
+                        # Freebie move con prioridad comunitaria (modificación clave)
+                        if break_count[variable] == 0:
+                            var_abs = abs(variable)
+                            if dominant_community and var_abs in self.variable_to_community:
+                                if self.variable_to_community[var_abs] == dominant_community:
+                                    variable_flip = variable
+                                    freebie_move = True
+                                    break
+                            else:
                                 variable_flip = variable
                                 freebie_move = True
                                 break
+
+
+                    if not freebie_move:
+                        # Selección con preferencia comunitaria (modificación clave)
+                        if random.random() <= probability:
+                            variable_flip = random.choice(list(break_count.keys()))
                         else:
-                            variable_flip = variable
-                            freebie_move = True
-                            break
-                    # if break_count[variable] == 0:
-                    #     variable_flip = variable
-                    #     freebie_move = True
-                    #     break
+                            min_break = min(break_count.values())
+                            candidates = [var for var, brk in break_count.items() if brk == min_break]
+                            
+                            # Priorizar variables de la comunidad dominante
+                            if dominant_community:
+                                comm_candidates = [
+                                    var for var in candidates 
+                                    if abs(var) in self.variable_to_community and 
+                                    self.variable_to_community[abs(var)] == dominant_community
+                                ]
+                                if comm_candidates:
+                                    candidates = comm_candidates
+                            
+                            variable_flip = random.choice(candidates)
 
-                if not freebie_move:
-                    # Selección con preferencia comunitaria (modificación clave)
-                    if random.random() <= probability:
-                        variable_flip = random.choice(list(break_count.keys()))
-                    else:
-                        min_break = min(break_count.values())
-                        candidates = [var for var, brk in break_count.items() if brk == min_break]
-                        
-                        # Priorizar variables de la comunidad dominante
-                        if dominant_community:
-                            comm_candidates = [
-                                var for var in candidates 
-                                if abs(var) in self.variable_to_community and 
-                                self.variable_to_community[abs(var)] == dominant_community
-                            ]
-                            if comm_candidates:
-                                candidates = comm_candidates
-                        
-                        variable_flip = random.choice(candidates)
-
-                # El resto del método permanece igual
-                score_clauses = score_clauses_auxiliar[variable_flip].copy()
-                satisfied_total = satisfied_total_auxiliar[variable_flip]
-                
-                if variable_flip in variable_clauses and -variable_flip in variable_clauses:
-                    variable_clauses_aux = variable_clauses[-variable_flip]
-                    variable_clauses[-variable_flip] = variable_clauses[variable_flip]
-                    variable_clauses[variable_flip] = variable_clauses_aux
-                elif variable_flip in variable_clauses:
-                    variable_clauses[-variable_flip] = variable_clauses[variable_flip]
-                elif -variable_flip in variable_clauses:
-                    variable_clauses[variable_flip] = variable_clauses[-variable_flip]
+                    # El resto del método permanece igual
+                    score_clauses = score_clauses_auxiliar[variable_flip].copy()
+                    satisfied_total = satisfied_total_auxiliar[variable_flip]
                     
-                assignment[abs(variable_flip)] = not assignment[abs(variable_flip)] 
-                clause_assignment = clause_assignment_auxiliar[variable_flip].copy()
+                    if variable_flip in variable_clauses and -variable_flip in variable_clauses:
+                        variable_clauses_aux = variable_clauses[-variable_flip]
+                        variable_clauses[-variable_flip] = variable_clauses[variable_flip]
+                        variable_clauses[variable_flip] = variable_clauses_aux
+                    elif variable_flip in variable_clauses:
+                        variable_clauses[-variable_flip] = variable_clauses[variable_flip]
+                    elif -variable_flip in variable_clauses:
+                        variable_clauses[variable_flip] = variable_clauses[-variable_flip]
+                        
+                    assignment[abs(variable_flip)] = not assignment[abs(variable_flip)] 
+                    clause_assignment = clause_assignment_auxiliar[variable_flip].copy()
 
-                if satisfied_total == self.clauses:
-                    with open("random_assignment.txt", "w") as file:
-                        file.write(str(assignment))
-                    return True, tries+1, flips+1
+                    if satisfied_total == self.clauses:
+                        with open("random_assignment.txt", "w") as file:
+                            file.write(str(assignment))
+                        return True, tries+1, flips+1
 
-        return False, max_tries, max_flips
+            return False, max_tries, max_flips
+        
+        except Exception as e:
+            print(f"Error during solving: {e}")
+            traceback.print_exc()
+            return False, max_tries, max_flips
